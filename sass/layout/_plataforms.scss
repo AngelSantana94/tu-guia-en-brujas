@@ -1,0 +1,56 @@
+.platforms {
+  margin: 3rem auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  
+
+  &__title {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__card {
+    
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transition: transform .25s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+
+  &__logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+
+  &__rating {
+    color: #f79400;
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    margin-top: -25px;
+  }
+
+  &__text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+  }
+}

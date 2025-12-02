@@ -1,0 +1,715 @@
+    <!doctype html>
+    <html lang="es">
+      <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tu Guia en Brujas</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css" />
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+      </head>
+      <body style="background-color: #f8f8f8;">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="img/logo-header-01.png" alt="Logo Tours en Bélgica" />
+              </a>
+              
+            </div>
+        
+            <nav class="header__nav" data-nav>
+
+              <button class="header__nav__toggle" aria-expanded="false" aria-label="Menú">
+                <img src="img/menu-hamburgesa-abrir.svg" class="icon icon--open" alt="Abrir menú" > 
+                <img src="img/menu-hamburgesa-cerrar.svg" class="icon icon--close" alt="Cerrar menú" > 
+              </button>
+              
+            
+              <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" data-scroll="tours" class="header__nav-link">Free Tours</a></li>
+                <li class="header__nav-item"><a href="#" data-scroll="offers" class="header__nav-link">Tours Privados</a></li>
+                <li class="header__nav-item"><a href="#" data-scroll="about" class="header__nav-link">Nuestros Guías</a></li>
+                <li class="header__nav-item"><a href="#" data-scroll="reviews" class="header__nav-link">Opiniones</a></li>
+              </ul>
+            </nav>
+            
+          </div>
+        </header>
+
+        <main>
+          <section class="hero-video" >
+            <video class="hero-video__background" autoplay muted loop playsinline preload="auto">
+              <source src="img/video-hero.mp4" type="video/mp4" />
+              Tu navegador no soporta el video.
+            </video>
+            
+          
+            <div class="hero-video__content container">
+              <h1 class="hero-video__title">Bienvenidos a Bélgica!</h1>
+              <p class="hero-video__text">
+                Somos guías profesionales enfocadas en brindarte la mejor experiencia en las ciudades más emblemáticas de Bélgica. 
+                Te acompañamos para explorar el corazón histórico de cada una de ellas y experimentarlo de primera mano.
+              </p>
+            </div>
+          </section>
+
+          <section class="tours" id="tours">
+            <h2 class="tours__title">
+              Descubre nuestros  <span class="tours__highlight"> Free Tours </span>en Brujas
+            </h2>
+          
+            <div class="tours__grid">
+
+              <article class="tours__card" >
+                <div class="tours__card-content" data-anim="left">
+                  <img src="img/brujas-freetour.jpeg" alt="Tour privado" class="tours__image">
+                  <div class="tours__info">
+                  <div class="tours__details">
+                    <span class="tours__duration"><i class="fa-regular fa-clock"></i> 2h</span>
+                    <span class="tours__type"><i class="fa-regular fa-circle-check"></i> Free Tour</span>
+                  </div>
+                  <h3 class="tours__name">🏅Brujas Auténtica con Guía Local 🌟, Su Encantadora Historia + Chocolate 🍫</h3>
+                  <div class="tours__footer">
+                    <span class="tours__tag"><i class="fa-solid fa-tag"></i> Free Tour</span>
+                    <button class="tours__button" data-url="https://www.turixe.com/es/brujas">¡Reserva YA!</button>
+                  </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="tours__card" >
+                <div class="tours__card-content" data-anim="bottom">
+                  <img src="img/brujas-tour-nocturno.jpeg" alt="Tour privado" class="tours__image">
+                  <div class="tours__info">
+                  <div class="tours__details">
+                    <span class="tours__duration"><i class="fa-regular fa-clock"></i> 2h</span>
+                    <span class="tours__type"><i class="fa-regular fa-circle-check"></i> Free Tour</span>
+                  </div>
+                  <h3 class="tours__name">Brujas de Noche ✨️ Barrios con historias, cuentos, mitos y leyendas vivas 🤩.</h3>
+                  <div class="tours__footer">
+                    <span class="tours__tag"><i class="fa-solid fa-tag"></i> Free Tour</span>
+                    <button class="tours__button" data-url="https://www.turixe.com/es/brujas/brujas-de-noche-barrios-con-historias-y-leyendas-vivas-173">¡Reserva YA!</button>
+                  </div>
+                  </div>
+                </div>
+              </article>
+          
+              <article class="tours__card" >
+                <div class="tours__card-content" data-anim="right">
+                  <img src="img/tour-brujas-01.jpeg" alt="Tour privado" class="tours__image">
+                  <div class="tours__info">
+                  <div class="tours__details">
+                    <span class="tours__duration"><i class="fa-regular fa-clock"></i> 2h</span>
+                    <span class="tours__type"><i class="fa-regular fa-circle-check"></i> Privado</span>
+                  </div>
+                  <h3 class="tours__name">Tour Privado en Brujas 🦢🥀. Crea tu propia ruta y haz tu experiencia única.✨</h3>
+                  <div class="tours__footer">
+                    <span class="tours__tag"><i class="fa-solid fa-tag"></i> Privado</span>
+                    <button class="tours__button" data-url="privado-brujas.html">¡Reserva YA!</button>
+                  </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          
+          <section class="offers" id="offers">
+            <div class="offers__container">
+              <h2 class="offers__title">Tours Privados</h2>
+              <p class="offers__subtitle">
+                Explora una selección cuidadosamente diseñada de experiencias turísticas que se adaptan a todo tipo de viajeros. Desde recorridos culturales inmersivos hasta aventuras al aire libre, nuestras publicaciones te permitirán descubrir la variedad de tours exclusivos que ofrecemos, cada uno pensado para brindarte una experiencia auténtica, segura y memorable.
+              </p>
+          
+              <div class="offers__grid">
+              
+                <a href="privado-gante.html" class="offers__card">
+                  <img src="img/tour-gante.jpg" alt="Tour en Gante" class="offers__image" />
+                  <div class="offers__content">
+                    <h3 class="offers__title-card">Gante – Juvenil, luminosa y con carácter</h3>
+                    <p class="offers__description">
+                      Ciudad de torres imponentes, ambiente universitario y una iluminación nocturna que la hace única. Gante combina historia y energía moderna en cada rincón.
+                      Tour privado totalmente personalizable.
+                    </p>
+                    
+                    <button class="offers__button" data-url="https://wa.me/32471543712?text=%C2%A1Hola!%20Quiero%20hacer%20una%20reserva%20con%20Tu%20Gu%C3%ADa%20en%20Brujas.">Conocer más</button>
+                  </div>
+                </a>
+              
+                <a href="privado-antwerpen.html" class="offers__card">
+                  <img src="img/tour-amberes.jpeg" alt="Tour en Amberes" class="offers__image" />
+                  <div class="offers__content">
+                    <h3 class="offers__title-card">Amberes – Moda, diamantes y espíritu flamenco</h3>
+                    <p class="offers__description">
+                      Conocida como la ciudad de los diamantes y la cuna de Rubens, Amberes combina tradición artística con un estilo moderno y vanguardista. Calles llenas de historia, puertos legendarios y una energía creativa única.
+                      Crea tu propio recorrido y explora la ciudad como tú quieras.
+                    </p>
+                    
+                    <button class="offers__button" data-url="privado-antwerpen.html">Conocer más</button>
+                  </div>
+                </a>
+
+                <a href="privado-bruselas.html" class="offers__card">
+                  <img src="img/tour-bruselas.jpg" alt="Tour en Bruselas" class="offers__image" />
+                  <div class="offers__content">
+                    <h3 class="offers__title-card">Bruselas – Historia, chocolate y Europa</h3>
+                    <p class="offers__description">
+                      Descubre la capital belga a tu ritmo: desde la majestuosa Grand Place hasta los rincones modernos del Barrio Europeo. Arte, arquitectura, cerveza y chocolate se mezclan en una ciudad vibrante y sorprendente.
+                      Tour totalmente personalizable según tus intereses.
+                    </p>
+
+                    <button class="offers__button" data-url="https://wa.me/32471543712?text=%C2%A1Hola!%20Quiero%20hacer%20una%20reserva%20con%20Tu%20Gu%C3%ADa%20en%20Brujas.">Conocer más</button>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </section>
+
+          <section class="about" id="about">
+            <div class="about__container">
+              <h2 class="about__title">Conócenos</h2>
+              <p class="about__subtitle">Con más de cinco años compartiendo historias, secretos y rincones únicos de Brujas, Gante y Amberes, nuestro equipo de guías locales te hará vivir la ciudad como un verdadero viajero, no solo como un turista. ¡Conócenos y déjate sorprender!</p>
+              <div class="about__cards">
+          
+                <div class="about__card">
+                  <img src="img/mariana.jpg" alt="Guía Mariana" class="about__photo" />
+                  <h3 class="about__name">Mariana</h3>
+                  <p class="about__role">Guía turística profesional</p>
+                  <p class="about__description">
+                    Hola, soy Mariana. Me encantará mostrarte los sitios más relevantes de Brujas, sus rinconcitos escondidos y sus esplendorosas vistas panorámicas. Te contaré los datos históricos interesantes, así como los cuentos y leyendas más fascinantes que esta ciudad guarda celosamente. Tambíen puedo darte recomendaciones de atracciones, tiendas, restaurantes, bares o lo que necesites. Estaré muy feliz de procurar una visita placentera para tí. Seré tu acompañante local en tu paseo por esta hermosa ciudad.
+                  </p>
+                </div>
+
+                <div class="about__card">
+                  <img src="img/lorena.jpg" alt="Guía Lorena" class="about__photo" />
+                  <h3 class="about__name">Lorena </h3>
+                  <p class="about__role">Guía turística profesional</p>
+                  <p class="about__description">
+                    Hola, soy Lorena. Me encanta conectar con la gente y compartir la historia, la magia y la belleza de esta gran ciudad. Caminaremos por sus calles medievales y conocerás todo sobre su gastronomía, ¡¡ deliciosos chocolates, gofres y cervezas!! Estoy segura que te contagiaré con la magia de Brujas. Tendremos un fabuloso viaje por el pasado y el presente de esta hermosa ciudad.
+                  </p>
+                </div>
+
+                <div class="about__card">
+                  <img src="img/claudia.jpeg" alt="Guía Claudia" class="about__photo" />
+                  <h3 class="about__name">Claudia</h3>
+                  <p class="about__role">Guía turística profesional</p>
+                  <p class="about__description">
+                    Soy Claudia, guía turística en la hermosa ciudad de Brujas.
+
+                  Me apasiona compartir este lugar con quienes lo visitan por primera vez (¡o por décima!). Disfruto mucho lo que hago y trato de que cada recorrido sea especial: relajado, entretenido, lleno de historias y curiosidades que muchas veces pasan desapercibidas.
+                  
+                  Mi objetivo es que vivas una experiencia cercana, auténtica y, sobre todo, que te lleves un recuerdo lindo de Brujas.
+                  
+                  Si te gusta descubrir una ciudad con una guía que ama lo que hace y le pone corazón a cada paseo, me va a encantar acompañarte.
+                  
+                  ✨ Ven, descubramos juntos lo mejor de Brujas... a tu ritmo y con una sonrisa.
+                  </p>
+                </div>
+
+                <div class="about__card">
+                  <img src="img/karla.jpeg" alt="Guía karla" class="about__photo" />
+                  <h3 class="about__name">Karla </h3>
+                  <p class="about__role">Guía turística profesional</p>
+                  <p class="about__description">
+                    Me llamo Karla y soy una apasionada de la historia y la arquitectura. Tengo la suerte de vivir en Brujas, la joya de Bélgica,  y cada día me enamoro más de esta ciudad.
+                    Me encanta compartir la historia, los datos curiosos  y por qué no, algunas leyendas y anécdotas de esta hermosa ciudad. Te llevaré en un viaje a través del tiempo, mostrándote los rincones más emblemáticos  y descubras la esencia de Brujas.
+                    Únete a caminar conmigo por las calles de Brujas para que te enamores también de los hermosos paisajes, la  arquitectura, sabores, costumbres y la magia de esta inolvidable ciudad.
+                  </p>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+
+
+          <section class="reviews" id="reviews">
+            <div class="reviews__container container">
+              <h2 class="reviews__title">Últimas opiniones</h2>
+          
+              <div id="reviews-swiper" class="swiper">
+                <div class="swiper-wrapper" id="reviews-container">
+                  <!-- Slides generadas dinámicamente -->
+                </div>
+          
+                <!-- Navegación -->
+                <div class="swiper-button-prev" aria-label="Anterior"></div>
+                <div class="swiper-button-next" aria-label="Siguiente"></div>
+          
+                <!-- Paginación (opcional) -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="platforms" id="platforms" >
+            <h2 class="platforms__title">Reseñas en otras plataformas</h2>
+          
+            <div class="platforms__grid">
+          
+              <!-- Google -->
+              <article class="platforms__card">
+                <img src="img/google-review.webp" alt="Google Reviews" class="platforms__logo">
+                <div class="platforms__reviews">
+                  +50 reseñas
+                </div>
+                <p class="platforms__text">
+                  “Una experiencia totalmente recomendable con una guía simpática y atenta. La guia ha contado con todo detalle, pero de manera amena y entretenida, la historia de Brujas y cómo viven sus habitantes.”
+                </p>
+                <a href="https://www.google.com/maps/place/Tu+Guía+en+Brujas/@51.2084512,3.2220854,16z/data=!3m1!4b1!4m18!1m9!3m8!1s0x47c3514f815d9c7b:0x7c3615dec7165193!2sTu+Guía+en+Brujas!8m2!3d51.2084512!4d3.2246603!9m1!1b1!16s%2Fg%2F11x70ts2c3!3m7!1s0x47c3514f815d9c7b:0x7c3615dec7165193!8m2!3d51.2084512!4d3.2246603!9m1!1b1!16s%2Fg%2F11x70ts2c3?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D
+                " target="_blank" rel="noopener noreferrer">
+                  <button class="tours__button" style="background-color: #4770c3;" >Ver Reseñas</button>
+                </a>
+                
+              </article>
+
+              <!-- GuruWalk -->
+              <article class="platforms__card">
+                <img src="img/guruwalk-review.png" alt="GuruWalk" class="platforms__logo">
+                <div class="platforms__reviews">
+                  +120 reseñas
+                </div>
+                <p class="platforms__text">
+                  “El tour fue realmente increíble. La información fue muy clara y entretenida! Visitamos los lugares mas icónicos y en cada parada recibimos historias fascinantes que te hacían sentir en un cuento.”
+                </p>
+                <a href="https://www.guruwalk.com/es/walkers/reviews?tour_id=64230" target="_blank" rel="noopener noreferrer">
+                  <button class="tours__button" style="background-color: #FC6665 ;" >Ver Reseñas</button>
+                </a>
+                
+              </article>
+          
+              <!-- FreeTour -->
+              <article class="platforms__card">
+                <img src="img/freetour-review.png" alt="FreeTour" class="platforms__logo">
+                <div class="platforms__reviews">
+                  +60 reseñas
+                </div>
+                <p class="platforms__text">
+                  “El tour en Brujas estuvo increíble. El guía lo hace súper ameno, te cuenta historias divertidas, te da tips locales y conoces rincones que no salen en las guías. ¡Totalmente recomendable!”
+                </p>
+                <a id="freetourBtn" href="https://www.freetour.com/es/bruges/brujas-medieval-historia-guia-local-chocolate" target="_blank" rel="noopener noreferrer">
+                  <button class="tours__button"  style="background-color: #F8A354;" >Ver Reseñas</button>
+                </a>
+                
+              </article>
+          
+              
+          
+            </div>
+          </section>
+
+          <section class="faq" id="faq">
+            <div class="faq__container container">
+              <h2 class="faq__title">Preguntas frecuentes</h2>
+          
+              <div class="faq__list">
+          
+                <!-- Pregunta 1 -->
+                <article class="faq__item">
+                  <button class="faq__question" aria-expanded="false">
+                    ¿Qué es Tu Guia en Brujas?
+                    <span class="faq__icon"></span>
+                  </button>
+                  <div class="faq__answer">
+                    <p>
+                      <strong>Tu Guía en Brujas</strong> es un proyecto creado por guías locales con más de <strong>5 años de experiencia</strong> mostrando la ciudad a miles de viajeros. Amamos Brujas y estamos comprometidos con ofrecer tours en español de la más alta calidad: cercanos, claros y llenos de historia, cultura y anécdotas reales.
+                    </p>
+                    <p>
+                      Nuestro objetivo es que cada visitante disfrute una experiencia auténtica, personalizada y adaptada a lo que de verdad quieren conocer. Caminamos contigo para que descubras Brujas como la vemos quienes vivimos aquí: con pasión, dedicación y cariño por cada detalle.
+                    </p>
+                  </div>
+                </article>
+          
+                <!-- Pregunta 2 -->
+                <article class="faq__item">
+                  <button class="faq__question" aria-expanded="false">
+                    ¿Qué es un free tour?
+                    <span class="faq__icon"></span>
+                  </button>
+                  <div class="faq__answer">
+                    <p>
+                      Un <strong>free tour</strong> es un recorrido guiado por la ciudad donde nuestros guías comparten historia, curiosidades, cultura local y la verdadera esencia de Brujas de una manera cercana y entretenida. Hoy en día es la opción favorita de los viajeros en prácticamente cualquier destino del mundo.
+                    </p>
+                    <p>
+                      Aunque la palabra <em>“free”</em> puede generar confusión —porque en inglés significa tanto “gratis” como “libre”—, en este caso se refiere a un <strong>tour de libre contribución</strong>. Es decir, al finalizar el recorrido, cada viajero decide cuánto aportar en función de la experiencia que vivió. Es un sistema conocido como <strong>pago a voluntad</strong>, y permite que el visitante valore el trabajo del guía según la calidad del servicio recibido.
+                    </p>
+                    <p>
+                      En <strong>Tu Guía en Brujas</strong> creemos en este modelo porque pone al viajero en el centro, fomenta un trato honesto y motiva a los guías a ofrecer siempre su mejor versión. Gracias a este sistema, cada recorrido se convierte en una experiencia genuina, cercana y adaptada a las expectativas del grupo.
+                    </p>
+                  </div>
+                </article>
+
+                <!-- Pregunta 3 -->
+                <article class="faq__item">
+                  <button class="faq__question" aria-expanded="false">
+                    ¿Cuánto cuesta un Free Tour?
+                    <span class="faq__icon"></span>
+                  </button>
+                  <div class="faq__answer">
+                    <p>
+                      La pregunta estrella que siempre hacen los viajeros: <em>“¿Cuánto se suele dar?”</em> 
+                      La respuesta es sencilla: <strong>tú eliges la cantidad</strong>. Siempre recomendamos que sea acorde a la experiencia vivida y, por supuesto, a las posibilidades económicas de cada persona.
+                    </p>
+                    <p>
+                      Como tu guía local en <strong>Brujas</strong>, me esfuerzo cada día en mejorar mis conocimientos sobre la ciudad y en transmitir su historia, curiosidades y leyendas de una forma cercana, amena y divertida. Mi objetivo es que disfrutes Brujas como la viven los locales y que te lleves una experiencia memorable.
+                    </p>
+                    <p>
+                      Por eso, la mayoría de viajeros que hacen un tour conmigo suelen dejar entre <strong>15 y 25 € por persona</strong>, aunque, como siempre, la decisión es totalmente tuya. Puedes dar más o menos según cómo hayas vivido la experiencia.
+                    </p>
+                  </div>
+                </article>
+          
+                <!-- Pregunta 4 -->
+                <article class="faq__item">
+                  <button class="faq__question" aria-expanded="false">
+                    ¿Cuál es la diferencia entre un free tour y un tour privado?
+                    <span class="faq__icon"></span>
+                  </button>
+                  <div class="faq__answer">
+                    <p>
+                      Un <strong>free tour</strong> es un recorrido de <em>libre pago</em>: tú decides cuánto aportar al final según tu experiencia y satisfacción. Es una opción flexible que se realiza en grupos abiertos y permite descubrir lo esencial de la ciudad de una forma económica y divertida. Es ideal si viajas solo, en pareja o en grupos pequeños y quieres una primera toma de contacto con Brujas.
+                    </p>
+                    <p>
+                      En cambio, un <strong>tour privado</strong> es una experiencia totalmente personalizada. La ruta, el ritmo y los contenidos se adaptan por completo a tu grupo. Es la opción perfecta para familias, grupos de amigos o viajeros que buscan comodidad, exclusividad y una atención más detallada por parte del guía.
+                    </p>
+                    <p>
+                      En resumen:
+                    </p>
+                    <p>
+                      <strong>el free tour es abierto, flexible y de libre aportación; el tour privado es exclusivo, hecho a medida y con precio cerrado.</strong>
+                    </p>
+                  </div>
+                </article>
+
+                
+          
+              </div>
+            </div>
+          </section>
+                    
+          <section class="cta-whatsapp">
+            <a
+              href="https://wa.me/32472951522?text=¡Hola!%20Quiero%20hacer%20una%20reserva%20con%20Tu%20Guía%20en%20Brujas."
+              class="whatsapp-float"
+              target="_blank"
+              aria-label="Reserva por WhatsApp"
+            >
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </section>
+        </main>
+
+        <footer class="footer">
+
+          <div class="footer__main">
+            <!-- Marca -->
+            <div class="footer__column footer__column--brand">
+              <img src="img/logo-header.png" alt="logo de la empresa" class="footer__logo">
+        
+              <p class="footer__description">
+                Explora ciudades con guías apasionados, rutas auténticas y experiencias inolvidables.
+              </p>
+        
+              <div class="footer__social">
+                <a class="footer__social-link" href="https://www.facebook.com/share/1DBsg2Bn2j/">
+                  <img src="img/facebook.png" alt="Facebook" class="footer__social-icon">
+                </a>
+                <a class="footer__social-link" href="https://www.instagram.com/toursenbrujas?igsh=ZGZyYnZkYTkzYnky">
+                  <img src="img/logotipo-de-instagram.png" alt="Instagram" class="footer__social-icon">
+                </a>
+                <a class="footer__social-link" href="https://www.tiktok.com/@tuguiaenbrujas?_t=ZG-90scmCfZAOm&_r=1">
+                  <img src="img/tik-tok.png" alt="TikTok" class="footer__social-icon">
+                </a>
+                <a class="footer__social-link" href="https://www.tripadvisor.be/Attraction_Review-g188671-d33088453-Reviews-Tu_Guia_en_Brujas-Bruges_West_Flanders_Province.html">
+                  <img src="img/tripadvisor.png" alt="Tripadvisor" class="footer__social-icon">
+                </a>
+              </div>
+            </div>
+        
+            
+        
+            <!-- Ciudades -->
+            <div class="footer__column">
+              <h4 class="footer__title">Ciudades</h4>
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="privado-brujas.html">Brujas</a></li>
+                <li class="footer__item"><a class="footer__link" href="privado-gante.html">Gante</a></li>
+                <li class="footer__item"><a class="footer__link" href="privado-bruselas.html">Bruselas</a></li>
+                <li class="footer__item"><a class="footer__link" href="privado-antwerpen.html">Amberes</a></li>
+              </ul>
+            </div>
+
+            <!-- Experiencias -->
+            <div class="footer__column">
+              <h4 class="footer__title">Legal</h4>
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="aviso-legal.html" >Aviso Legal</a></li>
+                <li class="footer__item"><a class="footer__link" href="politica-privacidad.html" >Politica de Privacidad</a></li>
+                <li class="footer__item"><a class="footer__link" href="politica-cookies.html" >Politica de Cookies</a></li>
+
+              </ul>
+            </div>
+        
+              <!-- Contacto -->
+            <div class="footer__column footer__contact">
+              <h4 class="footer__title">Contacto</h4>
+              <ul class="footer__contact-list">
+                <li class="footer__contact-item">
+                  <a class="footer__contact-link" href="mailto:tuguiaenbrujas@gmail.com">
+                    <img src="img/email-footer.svg" alt="Email" class="footer__contact-icon"> tuguiaenbrujas@gmail.com
+                  </a>
+                </li>
+                <li class="footer__contact-item">
+                  <a class="footer__contact-link" href="https://wa.me/32472951522" target="_blank">
+                    <img src="img/whatsapp-footer.svg" alt="WhatsApp" class="footer__contact-icon"> WhatsApp
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        
+          <!-- Parte inferior -->
+          <div class="footer__bottom">        
+            <p class="footer__rights">&copy; 2025 Tu Guía en Brujas. Todos los derechos reservados.</p>
+          </div>
+        
+        </footer>
+        
+        
+        
+
+        <div class="cookie-banner" id="cookieBanner">
+          <p>
+            Usamos cookies para mejorar tu experiencia. 
+            Puedes leer más en nuestra 
+            <a href="/politica-cookies.html" target="_blank">Política de Cookies</a>.
+          </p>
+        
+          <div class="cookie-banner__buttons">
+            <button id="acceptCookies" class="cookie-btn accept">Aceptar</button>
+            <button id="rejectCookies" class="cookie-btn reject">Rechazar</button>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <script type="module" src="/src/main.js"></script>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Maps JS (Places library). Reemplaza la clave por la tuya -->
+        <script>
+          const API_KEY = 'AIzaSyCoGca6bNd2ANrjI2rAe82ph6htrhlUQXc'; // tu clave (la que pegaste)
+          const PLACE_ID = 'ChIJe5xdgU9Rw0cRk1EWx94VNnw'; // place id que me diste
+          const CACHE_KEY = 'tg_reviews_cache_v1';
+          const CACHE_TTL_MS = 1000 * 60 * 60 * 6; // 6 horas
+        
+          // Carga dinámica de la librería de Maps con callback
+          function loadMapsScript() {
+            return new Promise((res, rej) => {
+              if (window.google && google.maps && google.maps.places) return res();
+              window.initReviews = () => res();
+              const s = document.createElement('script');
+              s.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&libraries=places&callback=initReviews`;
+              s.async = true; s.defer = true;
+              s.onerror = rej;
+              document.head.appendChild(s);
+            });
+          }
+        
+          // Leer cache
+          function getCached() {
+            try {
+              const raw = localStorage.getItem(CACHE_KEY);
+              if (!raw) return null;
+              const parsed = JSON.parse(raw);
+              if (Date.now() - parsed.ts > CACHE_TTL_MS) {
+                localStorage.removeItem(CACHE_KEY);
+                return null;
+              }
+              return parsed.data;
+            } catch (e) { return null; }
+          }
+        
+          // Guardar cache
+          function setCached(data) {
+            try {
+              localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data }));
+            } catch (e) { /* storage full? ignore */ }
+          }
+        
+          // Renderiza slides en DOM
+          function renderReviews(reviews) {
+          const container = document.getElementById('reviews-container');
+          container.innerHTML = '';
+        
+          const max = Math.min(10, reviews.length);
+          for (let i = 0; i < max; i++) {
+            const r = reviews[i];
+        
+            const date = r.time
+              ? new Date(r.time * 1000).toLocaleDateString()
+              : r.relative_time_description || '';
+        
+            const stars = '★'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+        
+            const photo = r.profile_photo_url || null;
+        
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+        
+            slide.innerHTML = `
+              <article class="review-card" role="article">
+                <div class="review-card__header">
+                  <div class="review-card__avatar">
+                    ${photo ? `<img src="${photo}" alt="${escapeHtml(r.author_name || 'Usuario')}">` : ''}
+                  </div>
+                  <div>
+                    <h3 class="review-card__name">${escapeHtml(r.author_name || 'Anónimo')}</h3>
+                    <p class="review-card__location">${date}</p>
+                    <div class="review-card__stars">${stars}</div>
+                  </div>
+                </div>
+        
+                <p class="review-card__text">${escapeHtml(r.text || '')}</p>
+              </article>
+            `;
+        
+            container.appendChild(slide);
+          }
+}        
+        
+        
+          // escape básico para evitar XSS
+          function escapeHtml(str) {
+            return String(str).replace(/[&<>"']/g, function(s) {
+              return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]);
+            });
+          }
+        
+          // Inicializa Swiper
+          let mySwiper = null;
+          function initSwiper() {
+            if (mySwiper) mySwiper.destroy(true, true);
+            mySwiper = new Swiper('#reviews-swiper', {
+              slidesPerView: 1,
+              spaceBetween: 18,
+              loop: true,
+              autoplay: { delay: 4500, disableOnInteraction: false },
+              navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+              pagination: { el: '.swiper-pagination', clickable: true },
+              breakpoints: {
+                900: { slidesPerView: 2 }
+              },
+              a11y: true
+            });
+          }
+        
+          // Obtenemos detalles vía PlacesService
+          async function fetchReviewsFromPlaces() {
+            await loadMapsScript();
+            return new Promise((resolve, reject) => {
+              try {
+                const service = new google.maps.places.PlacesService(document.createElement('div'));
+                service.getDetails({ placeId: PLACE_ID, fields: ['name','rating','reviews','user_ratings_total'] }, (place, status) => {
+                  if (status === google.maps.places.PlacesServiceStatus.OK && place && place.reviews) {
+                    // ordenar por time (más reciente primero)
+                    const reviews = place.reviews.slice().sort((a,b) => (b.time || 0) - (a.time || 0));
+                    resolve(reviews);
+                  } else {
+                    reject(new Error('No se pudieron obtener reseñas desde Places API: ' + status));
+                  }
+                });
+              } catch (e) { reject(e); }
+            });
+          }
+        
+          // Fallback: reviews estáticas desde DOM existente
+          function getLocalFallbackReviews() {
+            // Intenta leer tus cards actuales (si están en markup) y transformarlas
+            const local = [];
+            document.querySelectorAll('.review-card').forEach(card => {
+              const author = card.querySelector('.review-card__name')?.textContent?.trim();
+              const text = card.querySelector('.review-card__text')?.textContent?.trim();
+              const dateText = card.querySelector('.review-card__meta')?.textContent?.trim() || '';
+              local.push({ author_name: author || 'Anónimo', text: text || '', relative_time_description: dateText, rating: 5, time: 0 });
+            });
+            return local;
+          }
+        
+          // Flujo principal
+          (async function main() {
+            // 1) intenta cache
+            const cached = getCached();
+            if (cached && Array.isArray(cached) && cached.length) {
+              renderReviews(cached);
+              initSwiper();
+            }
+        
+            // 2) intenta fetch
+            try {
+              const reviews = await fetchReviewsFromPlaces();
+              if (reviews && reviews.length) {
+                // Filtrado por idioma si quieres (aquí se asume que todas son español)
+                // Orden ya aplicado en fetch
+                setCached(reviews);
+                renderReviews(reviews);
+                initSwiper();
+                return;
+              }
+              throw new Error('No hay reseñas desde Places');
+            } catch (err) {
+              console.warn('Places fetch failed:', err);
+              // fallback si cache vacío
+              if (!(cached && cached.length)) {
+                const fallback = getLocalFallbackReviews();
+                renderReviews(fallback);
+                initSwiper();
+              }
+            }
+          })();
+        </script>
+        
+        <script>
+          document.querySelectorAll('[data-scroll]').forEach(link => {
+            link.addEventListener('click', function (e) {
+              e.preventDefault();
+        
+              const targetId = this.dataset.scroll;
+              const target = document.getElementById(targetId);
+        
+              if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+              }
+        
+              // Cerrar menú móvil si está abierto
+              const nav = document.querySelector('[data-nav]');
+              const navBtn = nav.querySelector('.header__nav__toggle');
+        
+              if (navBtn.getAttribute('aria-expanded') === 'true') {
+                navBtn.click();
+              }
+            });
+          });
+        </script>
+        
+
+        
+      </body>
+      
+    </html>

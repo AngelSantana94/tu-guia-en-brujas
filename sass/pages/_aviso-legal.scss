@@ -1,0 +1,49 @@
+.legal {
+    padding: 3.5rem 1.5rem;
+    max-width: 920px;
+    margin: 0 auto;
+    color: #222;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+    line-height: 1.7;
+    font-size: 1.02rem;
+    -webkit-font-smoothing:antialiased;
+    
+  }
+  
+  .legal__title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .legal__intro {
+    font-size: 16px;
+    max-width: 700px;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+  
+  .legal__block {
+    margin-bottom: 2.5rem;
+  }
+  
+  .legal__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .legal__text {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+  
+  .legal__divider {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 2rem 0;
+  }
+  
