@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+// 1. Vendors
+@use 'vendors/normalize';
+
+// 2. Base stuff
+@use 'base/base';
+@use 'base/fonts';
+@use 'base/helpers';
+@use 'base/typography';
+
+// 3. Layout-related sections
+@use 'layout/footer';
+@use 'layout/header';
+@use 'layout/hero';
+@use 'layout/offers';
+@use 'layout/about';
+@use 'layout/main';
+@use 'layout/tours';
+@use 'layout/reviews';
+@use 'layout/plataforms';
+@use 'layout/faq';
+@use 'layout/cookie-banner';
+@use 'layout/tours-cta';
+
+// 4. Components
+@use 'components/button';
+
+// 5. Pages
+@use 'pages/home';
+@use 'pages/aviso-legal';
+@use 'pages/politica-privacidad';
+@use 'pages/politica-cookies';
+@use 'pages/privado-gante';
+@use 'pages/privado-brujas';
+@use 'pages/privado-bruselas';
+@use 'pages/privado-antwerpen';
+
+// 6. Themes
+@use 'themes/default';
