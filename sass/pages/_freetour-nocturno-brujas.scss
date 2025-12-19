@@ -1,8 +1,4 @@
-/* ============================
-   HERO 
-   ============================ */
-
-   .tour-hero-bruselas {
+.tour-hero-brujas-free-tour-nocturno {
     position: relative;
     width: 100%;
     height: 90vh;
@@ -14,7 +10,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
-    background-image: url("/img/privado-bruselas.jpg");
+    background-image: url("/img/free-tour-nocturno-hero.jpg");
   
     @media (min-width: 1024px) {
       height: 90vh;
@@ -56,3 +52,4 @@
       }
     }
   }
+

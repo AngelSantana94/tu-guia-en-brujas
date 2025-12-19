@@ -1,5 +1,3 @@
-
-
 {
   "name": "tours-en-brujas",
   "private": true,
@@ -13,5 +11,8 @@
   "devDependencies": {
     "sass": "^1.89.2",
     "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
   }
 }

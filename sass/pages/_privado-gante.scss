@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
-    background-image: url("../img/tour-gante.jpg");
+    background-image: url("/img/tour-gante.jpg");
   
     @media (min-width: 1024px) {
       height: 90vh;
@@ -189,18 +189,83 @@
   }
   
   /* ============================
-     RECORRIDO DEL TOUR – FAQ
+    RECORRIDO DEL TOUR – FAQ
      ============================ */
   
-  .route__list {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-  }
-  
-  .route__item {
-    border-bottom: 1px solid #ddd;
-    padding: 1rem 0;
-  }
+  /* Contenedor general */
+.timeline {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* Cada item se organiza en 2 columnas: rail (40px) + contenido (auto) */
+.timeline__item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 1rem;
+  position: relative;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Columna izquierda: línea vertical que se estira con la altura del item */
+.timeline__rail {
+  position: relative;
+}
+
+/* La línea vertical (conector) */
+.timeline__rail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;      /* Esto hace que se estire con el contenido (incluida la respuesta desplegada) */
+  left: 50%;
+  width: 2px;
+  background: #e0e0e0;
+  transform: translateX(-50%);
+}
+
+/* El nodo numerado */
+.timeline__dot {
+  position: absolute;
+  top: 0.25rem;   /* Ajusta para alinear con tu botón/título */
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 1;     /* por encima de la línea */
+}
+
+/* Quitar el conector en el último item */
+.timeline__item:last-child .timeline__rail::before {
+  display: none;
+}
+
+/* Área derecha: tu contenido existente */
+.timeline__content {
+  /* opcional: estilos propios */
+}
+
+/* Integra tus estilos actuales */
+.route__list { margin-top: 2rem; margin-bottom: 5rem; }
+.route__item { border-bottom: 1px solid #ddd; padding: 1rem 0; }
+
+/* Accesibilidad visual en hover/focus del botón */
+.route__question:focus-visible,
+.route__question:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
+.route__item:last-child { border-bottom: none; }
   
   .route__question {
     width: 100%;

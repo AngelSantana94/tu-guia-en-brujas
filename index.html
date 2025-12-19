@@ -4,6 +4,8 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/assets/favicon-BtdL3Qtc.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Tu Guía en Brujas: descubre rincones secretos, tours privados y experiencias únicas en Brujas, Gante y Amberes.">
+
         <title>Tu Guia en Brujas</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,13 +22,13 @@
         <script type="module" crossorigin src="https://unpkg.com/swiper@9/swiper-bundle.esm.browser.min.js"></script>
         <script type="module" crossorigin src="/assets/main-C7N8LqK-.js"></script>
         <script type="module" crossorigin src="https://unpkg.com/swiper@9/swiper-bundle.esm.browser.min.js"></script>
-        <link rel="stylesheet" crossorigin href="/assets/main-Ddd5CG1O.css">
+        <link rel="stylesheet" crossorigin href="/sass/main.scss">
       </head>
       <body style="background-color: #f8f8f8;">
         <header class="header">
           <div class="header__container">
             <div class="header__logo">
-              <a href="index.html">
+              <a href="/">
                 <img src="/assets/logo-header-01-C5B5HGeT.png" alt="Logo Tours en Bélgica" />
               </a>
               
@@ -120,7 +122,7 @@
                   <h3 class="tours__name">Tour Privado en Brujas 🦢🥀. Crea tu propia ruta y haz tu experiencia única.✨</h3>
                   <div class="tours__footer">
                     <span class="tours__tag"><i class="fa-solid fa-tag"></i> Privado</span>
-                    <button class="tours__button" data-url="privado-brujas.html">¡Reserva YA!</button>
+                    <button class="tours__button" data-url="/privado-brujas/">¡Reserva YA!</button>
                   </div>
                   </div>
                 </div>
@@ -137,7 +139,7 @@
           
               <div class="offers__grid">
               
-                <a href="privado-gante.html" class="offers__card">
+                <a href="/privado-gante/" class="offers__card">
                   <img src="/assets/tour-gante-BPGNA-Tu.jpg" alt="Tour en Gante" class="offers__image" />
                   <div class="offers__content">
                     <h3 class="offers__title-card">Gante – Juvenil, luminosa y con carácter</h3>
@@ -150,7 +152,7 @@
                   </div>
                 </a>
               
-                <a href="privado-antwerpen.html" class="offers__card">
+                <a href="/privado-amberes/" class="offers__card">
                   <img src="/assets/tour-amberes-D1TVEWpO.jpeg" alt="Tour en Amberes" class="offers__image" />
                   <div class="offers__content">
                     <h3 class="offers__title-card">Amberes – Moda, diamantes y espíritu flamenco</h3>
@@ -163,7 +165,7 @@
                   </div>
                 </a>
 
-                <a href="privado-bruselas.html" class="offers__card">
+                <a href="/privado-bruselas/" class="offers__card">
                   <img src="/assets/tour-bruselas-VhrulP8l.jpg" alt="Tour en Bruselas" class="offers__image" />
                   <div class="offers__content">
                     <h3 class="offers__title-card">Bruselas – Historia, chocolate y Europa</h3>
@@ -446,10 +448,10 @@
             <div class="footer__column">
               <h4 class="footer__title">Ciudades</h4>
               <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link" href="privado-brujas.html">Brujas</a></li>
-                <li class="footer__item"><a class="footer__link" href="privado-gante.html">Gante</a></li>
-                <li class="footer__item"><a class="footer__link" href="privado-bruselas.html">Bruselas</a></li>
-                <li class="footer__item"><a class="footer__link" href="privado-antwerpen.html">Amberes</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privado-brujas/">Brujas</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privado-gante/">Gante</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privado-bruselas/">Bruselas</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privado-amberes/">Amberes</a></li>
               </ul>
             </div>
 
@@ -457,9 +459,9 @@
             <div class="footer__column">
               <h4 class="footer__title">Legal</h4>
               <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link" href="aviso-legal.html" >Aviso Legal</a></li>
-                <li class="footer__item"><a class="footer__link" href="politica-privacidad.html" >Politica de Privacidad</a></li>
-                <li class="footer__item"><a class="footer__link" href="politica-cookies.html" >Politica de Cookies</a></li>
+                <li class="footer__item"><a class="footer__link" href="/aviso-legal/" >Aviso Legal</a></li>
+                <li class="footer__item"><a class="footer__link" href="/politica-de-privacidad/" >Politica de Privacidad</a></li>
+                <li class="footer__item"><a class="footer__link" href="/politica-de-cookies/" >Politica de Cookies</a></li>
 
               </ul>
             </div>
@@ -490,9 +492,6 @@
         
         </footer>
         
-        
-        
-
         <div class="cookie-banner" id="cookieBanner">
           <p>
             Usamos cookies para mejorar tu experiencia. 
@@ -510,7 +509,8 @@
         
         
         
-        
+        
+        <script type="module" src="/src/main.js"></script>
 
         <!-- Swiper JS -->
         <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
