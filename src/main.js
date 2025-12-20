@@ -7,10 +7,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 */
 
-
-
-console.log('MAIN.JS ARRANCA');
-
 // -------- Sticky Header ----------
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.header');
