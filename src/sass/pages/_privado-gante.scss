@@ -1,0 +1,359 @@
+/* ============================
+   HERO 
+   ============================ */
+
+   .tour-hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    min-height: 420px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url("/assets/img/tour-gante.jpg");
+  
+    @media (min-width: 1024px) {
+      height: 90vh;
+    }
+  
+    &__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.55) 0%,
+        rgba(0, 0, 0, 0.35) 40%,
+        rgba(0, 0, 0, 0.15) 70%,
+        rgba(0, 0, 0, 0.05) 100%
+      );
+      z-index: 1;
+    }
+  
+    &__content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      padding: 0 5% 50px;
+    }
+  
+    &__title {
+      font-family: Oswald, sans-serif;
+      color: #f1ecf4;
+      font-size: 40px;
+      font-weight: 750;
+      line-height: 1.1;
+      max-width: 900px;
+  
+      @media (min-width: 640px) {
+        font-size: 4rem;
+      }
+      @media (min-width: 1024px) {
+        font-size: 4.8rem;
+      }
+    }
+  }
+  
+  /* ============================
+     BASE TOUR PAGE
+     ============================ */
+  
+  .tour__section {
+    font-family: 'Nunito', sans-serif;
+    padding: 0.3rem 1.5rem 5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #222;
+  
+    @media (min-width: 768px) {
+      padding: 0.4rem 2rem 6rem;
+    }
+  
+    &__title {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 2rem;
+      color: #111;
+      line-height: 1.2;
+  
+      @media (min-width: 768px) {
+        font-size: 2.5rem;
+      }
+    }
+  
+    &__text {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: #222;
+    }
+  
+    &__divider {
+      border: none;
+      border-top: 2px solid #8a3cb8;
+      opacity: 0.3;
+      margin-top: 3rem;
+    }
+  }
+  
+  /* ============================
+     LISTAS
+     ============================ */
+  
+  .tour__list {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  
+    &-item {
+      margin-bottom: 0.7rem;
+      font-size: 1.05rem;
+    }
+  }
+  
+  /* ============================================================
+     INCLUDED SECTION – Caja Premium
+     ============================================================ */
+  
+  .tour__included-wrapper {
+    display: grid;
+    gap: 2.5rem;
+  
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+  }
+  
+  .tour__included-box {
+    padding: 1.5rem 1.5rem 1.5rem 1.2rem;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    background: #fafafa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.09);
+    }
+  }
+  
+  .tour__included-header {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tour__included-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .tour__included-icon {
+    width: 28px;
+  
+    &--no {
+      width: 26px;
+    }
+  }
+  
+  /* ============================
+     MAPA – Estilo responsive
+     ============================ */
+  
+  .tour__map-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  }
+  
+  .tour__map {
+    width: 100%;
+    height: 320px;
+    border: 0;
+  
+    @media (min-width: 768px) {
+      height: 380px;
+    }
+  
+    @media (min-width: 1024px) {
+      height: 420px;
+    }
+  }
+  
+  /* ============================
+    RECORRIDO DEL TOUR – FAQ
+     ============================ */
+  
+  /* Contenedor general */
+.timeline {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* Cada item se organiza en 2 columnas: rail (40px) + contenido (auto) */
+.timeline__item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 1rem;
+  position: relative;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Columna izquierda: línea vertical que se estira con la altura del item */
+.timeline__rail {
+  position: relative;
+}
+
+/* La línea vertical (conector) */
+.timeline__rail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;      /* Esto hace que se estire con el contenido (incluida la respuesta desplegada) */
+  left: 50%;
+  width: 2px;
+  background: #e0e0e0;
+  transform: translateX(-50%);
+}
+
+/* El nodo numerado */
+.timeline__dot {
+  position: absolute;
+  top: 0.25rem;   /* Ajusta para alinear con tu botón/título */
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 1;     /* por encima de la línea */
+}
+
+/* Quitar el conector en el último item */
+.timeline__item:last-child .timeline__rail::before {
+  display: none;
+}
+
+
+/* Integra tus estilos actuales */
+.route__list { margin-top: 2rem; margin-bottom: 5rem; }
+.route__item { border-bottom: 1px solid #ddd; padding: 1rem 0; }
+
+/* Accesibilidad visual en hover/focus del botón */
+.route__question:focus-visible,
+.route__question:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
+.route__item:last-child { border-bottom: none; }
+  
+  .route__question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #222;
+  }
+  
+  .route__question[aria-expanded="true"] .route__icon {
+    transform: rotate(180deg);
+  }
+  
+  .route__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  
+    p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+  }
+  
+  /* ============================================
+     POR QUÉ ELEGIR UN TOUR PRIVADO – Cards
+     ============================================ */
+  
+  .tour-why__grid {
+    display: grid;
+    gap: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+  
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+    }
+  }
+  
+  .tour-why__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .tour-why__icon {
+    width: 55px;
+    height: auto;
+    margin-bottom: 1rem;
+  
+    @media (min-width: 768px) {
+      width: 60px;
+    }
+  }
+  
+  .tour-why__subtitle {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+    color: #000;
+  }
+  
+  .tour-why__text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444;
+    max-width: 260px;
+  }
+
+  .tour__link {
+    color: #111;              // color del texto del enlace
+    text-decoration: none;
+    font-weight: 700;         // si quieres que destaque
+    transition: color .15s ease;
+  
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      color: #8a3cb8;         // color accent al pasar el mouse (opcional)
+      outline: none;
+    }
+  }
+  
+  

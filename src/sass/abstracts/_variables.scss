@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// ABSTRACTS: VARIABLES
+// -----------------------------------------------------------------------------
+
+// --- Tipografía ---
+$font-poppins:    'Poppins', 'Helvetica Neue', Arial, sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-nunito:     'Nunito', sans-serif;
+
+// Stack principal (el que usará el body por defecto)
+$text-font-stack: $font-nunito !default;
+// Stack para títulos
+$header-font-stack: $font-poppins !default;
+
+// --- Colores ---
+// (He actualizado el brand-color al púrpura de producción, ajústalo si prefieres)
+$brand-color:     #6a1b9a !default; 
+$text-color:      rgb(34, 34, 34) !default;
+$light-grey:      rgb(237, 237, 237) !default;
+$mid-grey:        rgb(153, 153, 153) !default;
+$dark-grey:       rgb(68, 68, 68) !default;
+$white:           #ffffff;
+
+// --- Layout ---
+$max-width:       1180px !default;
+
+// --- Breakpoints ---
+$breakpoints: (
+  'small':  320px,
+  'medium': 768px,
+  'large':  1024px,
+) !default;
+
+// --- Assets ---
+$base-url: '/assets/' !default;

@@ -1,0 +1,30 @@
+@use '../abstracts';
+
+/**
+ * Estilos básicos de tipografía
+ */
+body {
+  color: abstracts.$text-color;
+  // Usamos el stack por defecto (Nunito)
+  font-family: abstracts.$text-font-stack; 
+  font-size: 1.1rem; // Un tamaño base cómodo para lectura
+  line-height: 1.6;  // Buen espacio entre líneas
+  -webkit-font-smoothing: antialiased; // Hace que las fuentes se vean más nítidas
+}
+
+/**
+ * Títulos (Aplicamos Poppins de forma global)
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: abstracts.$header-font-stack;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+/**
+ * Ajuste para fuentes acentuadas (Opcional)
+ */
+.font-alt {
+  font-family: abstracts.$font-montserrat;
+}
