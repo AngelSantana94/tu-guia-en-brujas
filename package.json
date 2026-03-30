@@ -1,0 +1,21 @@
+{
+  "name": "tours-en-brujas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
+  }
+}

@@ -1,0 +1,55 @@
+@use '../abstracts' as *;
+.hero-video {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    
+  
+    &__background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 83%; // de 80% a 100% para que cubra todo el viewport
+      object-fit: cover;
+      object-position: center; // Desplaza el centro hacia la derecha
+      z-index: 1;
+      transform: scale(1.4); // agranda el video, puedes ajustar el valor (1.2 → 120%)
+    }
+  
+    &__content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 2rem;
+    }
+  
+    &__title {
+      display: inline-block;
+      width: fit-content;
+      padding: 5px 10px;
+      font-family: $font-poppins;
+      font-size: 3rem;
+      color: #570288;
+      background-color: rgba(252, 252, 252, 0.6);
+      margin: 0 auto 1rem; // ✅ centra horizontalmente
+      font-weight: 800;
+    }
+    
+    
+  
+    &__text {
+        font-family: $font-poppins;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
