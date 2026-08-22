@@ -1,0 +1,2805 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- ==========================================
+      GOOGLE ANALYTICS
+    =========================================== -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TQCTZ2TYL4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TQCTZ2TYL4");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Opcional: Color de tema para navegadores móviles -->
+    <meta name="theme-color" content="#8a3cb8" />
+
+    <!-- ==========================================
+      SEO BÁSICO (Adaptado para Tour Esencial)
+    =========================================== -->
+    <title>Tour Esencial por Brujas en Español | Tu Guía en Brujas</title>
+    <meta
+      name="description"
+      content="Descubre lo imprescindible de la ciudad medieval con nuestro Tour Esencial por Brujas en español. Historia, canales, leyendas y rincones inolvidables con guías locales."
+    />
+    <meta
+      name="keywords"
+      content="tour esencial brujas, visita guiada brujas, que ver en brujas, guia en brujas español, excursiones brujas, brujas imprescindible"
+    />
+    <meta name="author" content="Tu Guía en Brujas" />
+    <link
+      rel="canonical"
+      href="https://tuguiaenbrujas.com/tour-esencial-brujas/"
+    />
+
+    <!-- ==========================================
+      OPEN GRAPH (Facebook, WhatsApp) & TWITTER
+    =========================================== -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://tuguiaenbrujas.com/tour-esencial-brujas/"
+    />
+    <meta
+      property="og:title"
+      content="Tour Esencial por Brujas en Español | Tu Guía en Brujas"
+    />
+    <meta
+      property="og:description"
+      content="Recorre los puntos imprescindibles, el Muelle del Rosario, la Plaza Mayor y la historia medieval de Brujas en español. ¡Reserva tu plaza online!"
+    />
+    <meta
+      property="og:image"
+      content="https://tuguiaenbrujas.com/assets/og-tour-esencial-brujas.jpg"
+    />
+    <meta property="og:site_name" content="Tu Guía en Brujas" />
+    <meta property="og:locale" content="es_ES" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://tuguiaenbrujas.com/tour-esencial-brujas/"
+    />
+    <meta
+      name="twitter:title"
+      content="Tour Esencial por Brujas en Español | Tu Guía en Brujas"
+    />
+    <meta
+      name="twitter:description"
+      content="Recorre lo mejor de la Venecia del Norte con guías locales en español. ¡Reserva hoy!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://tuguiaenbrujas.com/assets/og-tour-esencial-brujas.jpg"
+    />
+
+    <!-- ==========================================
+      FUENTES & LIBRERÍAS EXTERNAS
+    =========================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Nunito:wght@200..1000&family=Oswald:wght@200..700&family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- ==========================================
+      SCRIPTS: VITE, TAILWIND Y REACT
+    =========================================== -->
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/booking-entry.jsx"></script>
+  </head>
+
+  <body style="background-color: #f8f8f8">
+    <header
+      data-site-header
+      class="sticky md:fixed top-0 inset-x-0 z-50 bg-white md:bg-transparent shadow-sm md:shadow-none px-6 md:px-10 py-3 rounded-b-2xl transition-colors duration-300"
+    >
+      <div
+        class="max-w-[1250px] mx-auto relative flex items-center justify-between"
+      >
+        <!-- Hamburguesa: solo móvil, izquierda -->
+        <button
+          type="button"
+          data-drawer-trigger="mobile-menu"
+          aria-controls="mobile-menu-drawer"
+          aria-expanded="false"
+          aria-label="Abrir menú"
+          class="group md:hidden relative z-10 flex h-10 w-10 flex-col items-center justify-center gap-[5px] rounded-full active:bg-[#8a3cb8]/10 transition-colors duration-300 cursor-pointer border-0 bg-transparent"
+        >
+          <span
+            class="block h-[2px] w-6 rounded-full bg-[#8a3cb8] transition-all duration-300 ease-out group-aria-expanded:translate-y-[7px] group-aria-expanded:rotate-45"
+          ></span>
+          <span
+            class="block h-[2px] w-6 rounded-full bg-[#8a3cb8] transition-all duration-300 ease-out group-aria-expanded:opacity-0"
+          ></span>
+          <span
+            class="block h-[2px] w-6 rounded-full bg-[#8a3cb8] transition-all duration-300 ease-out group-aria-expanded:-translate-y-[7px] group-aria-expanded:-rotate-45"
+          ></span>
+        </button>
+
+        <!-- Logo: centrado en móvil, en su sitio en escritorio -->
+        <a
+          href="/"
+          class="shrink-0 absolute left-1/2 -translate-x-1/2 md:static md:left-auto md:translate-x-0"
+        >
+          <img
+            data-header-logo
+            src="/src/assets/logo-header-01.png"
+            alt="Tu Guía en Brujas"
+            class="h-12 md:h-14 w-auto block transition-[filter] duration-300 md:brightness-0 md:invert"
+          />
+        </a>
+
+        <!-- ===== BLOQUE 1: Navegación central (solo escritorio) ===== -->
+        <nav class="hidden md:block absolute left-1/2 -translate-x-1/2">
+          <ul class="flex items-center gap-8 list-none m-0 p-0">
+            <!-- ===== NUESTROS TOURS (mega menú) ===== -->
+            <li class="relative" data-mega-item="tours">
+              <button
+                type="button"
+                data-mega-trigger
+                aria-expanded="false"
+                aria-controls="mega-panel-tours"
+                data-header-link
+                class="group relative z-10 inline-flex items-center gap-1.5 overflow-hidden whitespace-nowrap rounded-full px-4 py-2 md:text-white! font-semibold text-[0.95rem] bg-transparent border-0 cursor-pointer hover:text-white! transition-colors duration-300 before:absolute before:inset-0 before:-z-10 before:bg-[#8a3cb8] before:translate-y-[105%] hover:before:translate-y-0 before:transition-transform before:duration-300 before:ease-out"
+              >
+                Nuestros tours
+                <svg
+                  class="w-3.5 h-3.5 transition-transform duration-200 group-aria-expanded:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+
+              <div
+                id="mega-panel-tours"
+                data-mega-panel
+                class="absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[min(94vw,900px)] bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden opacity-0 invisible translate-y-2 pointer-events-none transition-all duration-200 ease-out z-40"
+              >
+                <div class="flex flex-col md:flex-row" data-mega-body>
+                  <!-- Categorías -->
+                  <div
+                    class="md:w-56 shrink-0 bg-gray-50 border-b md:border-b-0 md:border-r border-gray-100 p-4 flex md:flex-col gap-1"
+                    data-mega-categories
+                    role="tablist"
+                  >
+                    <button
+                      type="button"
+                      data-mega-cat="free"
+                      aria-selected="true"
+                      class="text-left px-4 py-3 rounded-xl text-sm font-semibold bg-white text-[#8a3cb8] shadow-sm transition-colors duration-150 cursor-pointer border-0"
+                    >
+                      Free Tours
+                    </button>
+                    <button
+                      type="button"
+                      data-mega-cat="esencial"
+                      aria-selected="false"
+                      class="text-left px-4 py-3 rounded-xl text-sm font-semibold text-gray-600 hover:text-gray-900 transition-colors duration-150 cursor-pointer bg-transparent border-0"
+                    >
+                      Esencial Tours
+                    </button>
+                    <button
+                      type="button"
+                      data-mega-cat="privado"
+                      aria-selected="false"
+                      class="text-left px-4 py-3 rounded-xl text-sm font-semibold text-gray-600 hover:text-gray-900 transition-colors duration-150 cursor-pointer bg-transparent border-0"
+                    >
+                      Tours Privados
+                    </button>
+                  </div>
+
+                  <!-- Tours de la categoría activa -->
+                  <div class="flex-1 p-5">
+                    <!-- PANEL: FREE TOURS -->
+                    <div
+                      data-mega-cat-panel="free"
+                      class="hidden grid grid-cols-1 sm:grid-cols-2 gap-5 w-full min-w-0"
+                    >
+                      <a
+                        href="/free-tour/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/brujas-freetour-hero.avif"
+                            alt="Free Tour Brujas Auténtica"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Free Tour por Brujas</span
+                          >
+                          <div
+                            data-tour-stats="97d93dec-eac1-4e6f-b142-88de82eb28c7"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Descubre la historia, los canales y los rincones
+                            más mágicos del corazón medieval de Brujas.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[10px] font-bold px-2 py-1 rounded-md uppercase tracking-wider"
+                              >Libre aportación</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M12 6v6l4 2"
+                                />
+                              </svg>
+                              2h
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- PANEL: ESENCIAL -->
+                    <div
+                      data-mega-cat-panel="esencial"
+                      class="hidden grid grid-cols-1 sm:grid-cols-2 gap-5 w-full min-w-0"
+                    >
+                      <a
+                        href="/esencial-tour/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/brujas-esencial-hero.avif"
+                            alt="Lo Esencial de Brujas"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Brujas Esencial</span
+                          >
+                          <div
+                            data-tour-stats="031223db-2de0-4b7a-bb77-3d519e2d110e"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Un recorrido imprescindible para conocer los
+                            secretos mejor guardados y la historia de la
+                            ciudad.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >15€</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M12 6v6l4 2"
+                                />
+                              </svg>
+                              2h
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        href="/esencial-nocturno/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/brujas-tour-nocturno-hero.avif"
+                            alt="Brujas de Noche"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Brujas de Noche</span
+                          >
+                          <div
+                            data-tour-stats="3491aff2-5be5-4165-b340-4b04e692a194"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Disfruta de la magia bajo las estrellas. Leyendas,
+                            misterios y hermosos canales iluminados.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >15€</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M12 6v6l4 2"
+                                />
+                              </svg>
+                              2h
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- PANEL: PRIVADOS -->
+                    <div
+                      data-mega-cat-panel="privado"
+                      class="hidden grid grid-cols-1 sm:grid-cols-2 gap-5 w-full min-w-0"
+                    >
+                      <a
+                        href="/privado-brujas/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/brujas-privado-hero.avif"
+                            alt="Tour Privado en Brujas"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Tour Privado Brujas</span
+                          >
+                          <div
+                            data-tour-stats="f6ae0514-8754-49f9-a48d-5c3bb5088f9a"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Exclusivo y a tu medida para disfrutar de la ciudad
+                            con un guía solo para ti y tu grupo.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >Presupuesto a Medida</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" stroke-width="2" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M23 21v-2a4 4 0 0 0-3-3.87"
+                                />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M16 3.13a4 4 0 0 1 0 7.75"
+                                />
+                              </svg>
+                              Por grupo
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        href="/privado-gante/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/gante-privado-hero.avif"
+                            alt="Tour Privado en Gante"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Tour Privado Gante</span
+                          >
+                          <div
+                            data-tour-stats="429dc2a0-ee7a-411d-a05b-3d534e55091a"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Descubre la vibrante ciudad de Gante, su imponente
+                            castillo y su arquitectura medieval.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >Presupuesto a Medida</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" stroke-width="2" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M23 21v-2a4 4 0 0 0-3-3.87"
+                                />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M16 3.13a4 4 0 0 1 0 7.75"
+                                />
+                              </svg>
+                              Por grupo
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        href="/privado-amberes/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/amberes-privado-hero.avif"
+                            alt="Tour Privado en Amberes"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Tour Privado Amberes</span
+                          >
+                          <div
+                            data-tour-stats="ac983b17-4386-40ee-b2b0-a9ca91d1ed64"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >Arte, historia y la majestuosa estación central en
+                            un recorrido privado inolvidable.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >Presupuesto a Medida</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" stroke-width="2" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M23 21v-2a4 4 0 0 0-3-3.87"
+                                />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M16 3.13a4 4 0 0 1 0 7.75"
+                                />
+                              </svg>
+                              Por grupo
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        href="/privado-bruselas/"
+                        class="group/card flex flex-col gap-3 p-3 rounded-xl min-w-0 w-full hover:bg-gray-50 border border-transparent hover:border-gray-100 hover:shadow-sm transition-all duration-300 no-underline!"
+                      >
+                        <div
+                          class="relative w-full h-36 rounded-lg overflow-hidden shrink-0"
+                        >
+                          <img
+                            src="/assets/img/bruselas-privado-hero.avif"
+                            alt="Tour Privado en Bruselas"
+                            class="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="flex flex-col flex-1">
+                          <span
+                            class="block font-bold text-[0.95rem] text-gray-900 group-hover/card:text-[#8a3cb8] transition-colors truncate"
+                            >Tour Privado Bruselas</span
+                          >
+                          <div
+                            data-tour-stats="ccdbca20-2008-4f9f-910b-db38f8a4ee40"
+                            class="flex items-center gap-2 mb-2"
+                          ></div>
+                          <span
+                            class="block text-xs text-gray-500 mt-1 line-clamp-2"
+                            >La capital europea te espera. Grand Place, Atomium
+                            y el encanto de sus calles a tu ritmo.</span
+                          >
+                          <div
+                            class="mt-auto pt-3 flex items-center justify-between"
+                          >
+                            <span
+                              class="inline-block bg-[#8a3cb8]/10 text-[#8a3cb8] text-[11px] font-bold px-2 py-1 rounded-md"
+                              >Presupuesto a Medida</span
+                            >
+                            <span
+                              class="text-xs font-semibold text-gray-500 flex items-center gap-1"
+                            >
+                              <svg
+                                class="w-3.5 h-3.5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" stroke-width="2" />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M23 21v-2a4 4 0 0 0-3-3.87"
+                                />
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M16 3.13a4 4 0 0 1 0 7.75"
+                                />
+                              </svg>
+                              Por grupo
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- ===== INFORMACIÓN ===== -->
+            <li class="relative" data-mega-item="info">
+              <button
+                type="button"
+                data-mega-trigger
+                aria-expanded="false"
+                aria-controls="mega-panel-info"
+                data-header-link
+                class="group relative z-10 inline-flex items-center gap-1.5 overflow-hidden whitespace-nowrap rounded-full px-4 py-2 md:text-white! font-semibold text-[0.95rem] bg-transparent border-0 cursor-pointer hover:text-white! transition-colors duration-300 before:absolute before:inset-0 before:-z-10 before:bg-[#8a3cb8] before:translate-y-[105%] hover:before:translate-y-0 before:transition-transform before:duration-300 before:ease-out"
+              >
+                Información
+                <svg
+                  class="w-3.5 h-3.5 transition-transform duration-200 group-aria-expanded:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+
+              <div
+                id="mega-panel-info"
+                data-mega-panel
+                class="absolute left-0 top-full mt-3 w-56 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden p-2 opacity-0 invisible translate-y-2 pointer-events-none transition-all duration-200 ease-out z-40"
+              >
+                <a
+                  href="/about-us/"
+                  class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-semibold text-gray-800 hover:bg-gray-50 hover:text-[#8a3cb8] transition-colors duration-150 no-underline!"
+                >
+                  Sobre nosotros
+                </a>
+              </div>
+            </li>
+
+            <!-- ===== CONTÁCTANOS ===== -->
+            <li class="relative" data-mega-item="contact">
+              <button
+                type="button"
+                data-mega-trigger
+                aria-expanded="false"
+                aria-controls="mega-panel-contact"
+                data-header-link
+                class="group relative z-10 inline-flex items-center gap-1.5 overflow-hidden whitespace-nowrap rounded-full px-4 py-2 md:text-white! font-semibold text-[0.95rem] bg-transparent border-0 cursor-pointer hover:text-white! transition-colors duration-300 before:absolute before:inset-0 before:-z-10 before:bg-[#8a3cb8] before:translate-y-[105%] hover:before:translate-y-0 before:transition-transform before:duration-300 before:ease-out"
+              >
+                Contáctanos
+                <svg
+                  class="w-3.5 h-3.5 transition-transform duration-200 group-aria-expanded:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+
+              <div
+                id="mega-panel-contact"
+                data-mega-panel
+                class="absolute right-0 top-full mt-3 w-64 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden p-2 opacity-0 invisible translate-y-2 pointer-events-none transition-all duration-200 ease-out z-40"
+              >
+                <a
+                  href="mailto:tuguiaenbrujas@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-semibold text-gray-800 hover:bg-gray-50 hover:text-[#8a3cb8] transition-colors duration-150 no-underline!"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                  tuguiaenbrujas@gmail.com
+                </a>
+                <a
+                  href="https://wa.me/32472951522"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-semibold text-gray-800 hover:bg-gray-50 hover:text-[#8a3cb8] transition-colors duration-150 no-underline!"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                  WhatsApp
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Derecha: reservas + usuario -> ahora visible en móvil también -->
+        <div class="flex items-center gap-3 md:gap-5">
+          <div id="header-auth-root"></div>
+        </div>
+      </div>
+
+      <!-- ===== Drawer menú móvil (izquierda -> derecha) ===== -->
+      <div
+        id="mobile-menu-drawer"
+        data-drawer="mobile-menu"
+        class="md:hidden fixed inset-0 z-[100] pointer-events-none"
+        aria-hidden="true"
+      >
+        <div
+          data-drawer-backdrop="mobile-menu"
+          class="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-300 ease-out"
+        ></div>
+
+        <div
+          data-drawer-panel="mobile-menu"
+          data-closed="-translate-x-full"
+          class="absolute inset-y-0 left-0 h-full w-[78%] max-w-xs bg-white shadow-2xl -translate-x-full transition-transform duration-300 ease-out flex flex-col"
+        >
+          <div
+            class="flex items-center justify-between px-5 py-4 border-b border-gray-100"
+          >
+            <span class="font-semibold text-[#222222]">Menú</span>
+            <button
+              type="button"
+              data-drawer-close="mobile-menu"
+              aria-label="Cerrar menú"
+              class="p-2 -mr-2 rounded-full hover:bg-gray-100 transition-colors duration-200 border-0 bg-transparent cursor-pointer"
+            >
+              <svg
+                class="w-5 h-5 text-[#222222]"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <!-- ===== BLOQUE 2: Navegación móvil (dentro del drawer principal) ===== -->
+          <nav class="flex flex-col p-3 gap-1">
+            <!-- Nuestros tours -> abre el drawer fullscreen -->
+            <button
+              type="button"
+              data-drawer-trigger="mobile-tours"
+              aria-expanded="false"
+              class="w-full text-left flex items-center justify-between px-3 py-2.5 rounded-xl text-[#222222] font-semibold text-[0.95rem] hover:bg-gray-100 transition-colors duration-200 bg-transparent border-0 cursor-pointer"
+            >
+              Nuestros tours
+              <svg
+                class="w-4 h-4 text-gray-400 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </button>
+
+            <!-- Información -> acordeón -->
+            <details class="group rounded-xl">
+              <summary
+                class="list-none flex items-center justify-between px-3 py-2.5 rounded-xl text-[#222222] font-semibold text-[0.95rem] hover:bg-gray-100 transition-colors duration-200 cursor-pointer [&::-webkit-details-marker]:hidden"
+              >
+                Información
+                <svg
+                  class="w-4 h-4 text-gray-400 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+              <div class="pl-3 pb-1 flex flex-col gap-0.5">
+                <a
+                  href="/about-us"
+                  data-drawer-close="mobile-menu"
+                  class="px-3 py-2 rounded-lg text-gray-600 text-sm font-medium hover:bg-gray-50 no-underline!"
+                >
+                  Sobre nosotros
+                </a>
+              </div>
+            </details>
+
+            <!-- Contáctanos -> acordeón -->
+            <details class="group rounded-xl">
+              <summary
+                class="list-none flex items-center justify-between px-3 py-2.5 rounded-xl text-[#222222] font-semibold text-[0.95rem] hover:bg-gray-100 transition-colors duration-200 cursor-pointer [&::-webkit-details-marker]:hidden"
+              >
+                Contáctanos
+                <svg
+                  class="w-4 h-4 text-gray-400 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+              <div class="pl-3 pb-1 flex flex-col gap-0.5">
+                <a
+                  href="mailto:tuguiaenbrujas@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-drawer-close="mobile-menu"
+                  class="flex items-center gap-2 px-3 py-2 rounded-lg text-gray-600 text-sm font-medium hover:bg-gray-50 no-underline!"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                  Email
+                </a>
+                <a
+                  href="https://wa.me/32472951522"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-drawer-close="mobile-menu"
+                  class="flex items-center gap-2 px-3 py-2 rounded-lg text-gray-600 text-sm font-medium hover:bg-gray-50 no-underline!"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                  WhatsApp
+                </a>
+              </div>
+            </details>
+          </nav>
+        </div>
+      </div>
+
+      <!-- ===== BLOQUE 3: Drawer fullscreen: Nuestros tours (móvil) ===== -->
+      <div
+        id="mobile-tours-drawer"
+        data-drawer="mobile-tours"
+        class="md:hidden fixed inset-0 z-[110] pointer-events-none"
+        aria-hidden="true"
+      >
+        <div
+          data-drawer-backdrop="mobile-tours"
+          class="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-300 ease-out"
+        ></div>
+
+        <div
+          data-drawer-panel="mobile-tours"
+          data-closed="translate-x-full"
+          class="absolute inset-y-0 right-0 h-full w-full bg-white shadow-2xl translate-x-full transition-transform duration-300 ease-out flex flex-col"
+        >
+          <div
+            class="flex items-center gap-3 px-5 py-4 border-b border-gray-100 shrink-0"
+          >
+            <button
+              type="button"
+              data-drawer-close="mobile-tours"
+              aria-label="Volver"
+              class="p-2 -ml-2 rounded-full hover:bg-gray-100 transition-colors duration-200 bg-transparent border-0 cursor-pointer"
+            >
+              <svg
+                class="w-5 h-5 text-[#222222]"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+              >
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <span class="font-semibold text-[#222222]">Nuestros tours</span>
+          </div>
+
+          <div class="flex-1 overflow-y-auto" data-mega-body>
+            <div
+              class="flex gap-2 px-4 py-3 overflow-x-auto"
+              data-mega-categories
+              role="tablist"
+            >
+              <button
+                type="button"
+                data-mega-cat="free"
+                aria-selected="true"
+                class="shrink-0 px-4 py-2 rounded-full bg-white text-[#8a3cb8] shadow-sm text-sm font-semibold border border-gray-200 cursor-pointer"
+              >
+                Free Tours
+              </button>
+              <button
+                type="button"
+                data-mega-cat="esencial"
+                aria-selected="false"
+                class="shrink-0 px-4 py-2 rounded-full text-gray-600 text-sm font-semibold border border-gray-200 bg-transparent cursor-pointer"
+              >
+                Tour Esencial
+              </button>
+              <button
+                type="button"
+                data-mega-cat="privado"
+                aria-selected="false"
+                class="shrink-0 px-4 py-2 rounded-full text-gray-600 text-sm font-semibold border border-gray-200 bg-transparent cursor-pointer"
+              >
+                Tours Privados
+              </button>
+            </div>
+
+            <div
+              data-mega-cat-panel="free"
+              class="px-4 pb-6 grid grid-cols-1 gap-2"
+            >
+              <a
+                href="/free-tour/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/brujas-freetour-hero.avif"
+                  alt="Free Tour Brujas Auténtica"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Brujas Auténtica</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >Libre aportación · 2h</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div
+              data-mega-cat-panel="esencial"
+              class="hidden px-4 pb-6 grid-cols-1 gap-2"
+            >
+              <a
+                href="/esencial-tour/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/brujas-esencial-hero.avif"
+                  alt="Lo Esencial de Brujas"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Lo Esencial de Brujas</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >16€ · 2h</span
+                  >
+                </div>
+              </a>
+              <a
+                href="/free-tour-nocturno/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/brujas-tour-nocturno-hero.avif"
+                  alt="Brujas de Noche"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Brujas de Noche</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >16€ · 2h</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div
+              data-mega-cat-panel="privado"
+              class="hidden px-4 pb-6 grid-cols-1 gap-2"
+            >
+              <a
+                href="/privado-brujas/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/brujas-privado-hero.avif"
+                  alt="Tour Privado en Brujas"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Brujas</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >160€ · grupo</span
+                  >
+                </div>
+              </a>
+              <a
+                href="/privado-gante/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/gante-privado-hero.avif"
+                  alt="Tour Privado en Gante"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Gante</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >160€ · grupo</span
+                  >
+                </div>
+              </a>
+              <a
+                href="/privado-amberes/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/amberes-privado-hero.avif"
+                  alt="Tour Privado en Amberes"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Amberes</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >160€ · grupo</span
+                  >
+                </div>
+              </a>
+              <a
+                href="/privado-bruselas/"
+                data-drawer-close="mobile-tours"
+                class="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 transition-colors duration-200 no-underline!"
+              >
+                <img
+                  src="/assets/img/bruselas-privado-hero.avif"
+                  alt="Tour Privado en Bruselas"
+                  class="w-16 h-16 rounded-lg object-cover shrink-0"
+                  loading="lazy"
+                />
+                <div class="min-w-0">
+                  <span
+                    class="block font-semibold text-sm text-gray-900 truncate"
+                    >Bruselas</span
+                  >
+                  <span class="block text-xs text-gray-500 truncate"
+                    >160€ · grupo</span
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. INTRODUCCIÓN -->
+      <!-- Contenedor Principal: Altura ampliada (95vh) y grupo para efectos -->
+      <section
+        class="relative w-full h-[95vh] sm:h-[85vh] min-h-[520px] flex items-start sm:items-end"
+      >
+        <!-- Imagen de fondo optimizada en AVIF (Móvil vs Escritorio) -->
+        <picture
+          class="absolute inset-0 z-0 w-full h-full rounded-2xl overflow-hidden"
+        >
+          <source
+            media="(max-width: 639px)"
+            srcset="/assets/img/brujas-esencial-hero-movil.avif"
+            type="image/avif"
+          />
+          <source
+            media="(min-width: 640px)"
+            srcset="/assets/img/brujas-esencial-hero.avif"
+            type="image/avif"
+          />
+          <img
+            src="/assets/img/brujas-esencial-hero.avif"
+            alt="Tour Esencial por Brujas"
+            class="w-full h-full object-cover"
+            loading="eager"
+          />
+        </picture>
+
+        <!-- Overlay de gradiente -->
+        <div
+          class="absolute inset-0 z-10 bg-gradient-to-b from-black/70 via-black/30 to-black/80 sm:bg-gradient-to-t sm:from-black/85 sm:via-black/40 sm:to-transparent rounded-2xl pointer-events-none"
+        ></div>
+
+        <!-- CONTENEDOR DE TEXTO: Sticky en móvil (top-6), relativo normal en escritorio -->
+        <div
+          class="sticky top-6 sm:relative sm:top-auto z-20 w-full px-6 pt-4 pb-10 sm:pt-0 sm:pb-16 lg:px-16 max-w-7xl mr-auto flex flex-col items-start gap-2.5"
+        >
+          <!-- Tag TOUR ESENCIAL -->
+          <span
+            class="text-[#c084fc] font-extrabold text-base sm:text-lg tracking-widest uppercase font-sans drop-shadow-sm"
+          >
+            TOUR ESENCIAL
+          </span>
+
+          <!-- Título principal -->
+          <h1
+            class="text-[#f1ecf4] font-[750] leading-[0.95] tracking-tight drop-shadow-2xl max-w-[900px] text-[75px] sm:text-[5.5rem] lg:text-[4.8rem]"
+            style="font-family: &quot;Oswald&quot;, sans-serif"
+          >
+            Tour Esencial por Brujas
+          </h1>
+
+          <!-- Subtítulo / Descripción -->
+          <p
+            class="text-gray-100 text-xl sm:text-2xl font-light max-w-[650px] drop-shadow-md leading-relaxed"
+          >
+            Recorre los rincones e historias imprescindibles de la ciudad con
+            máxima comodidad
+          </p>
+
+          <!-- CÁPSULA DE CARACTERÍSTICAS (Glassmorphism) -->
+          <div
+            class="mt-2 sm:mt-4 inline-flex flex-wrap items-center gap-3 sm:gap-5 px-4 sm:px-5 py-2.5 rounded-2xl sm:rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-white text-xs sm:text-sm shadow-xl"
+          >
+            <!-- Duración -->
+            <div class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-300 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span class="font-medium">2h aprox.</span>
+            </div>
+
+            <div class="hidden sm:block w-px h-4 bg-white/20"></div>
+
+            <!-- Audífonos / Equipamiento -->
+            <div class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-300 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 18v-6a9 9 0 0118 0v6M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+                />
+              </svg>
+              <span class="font-medium">Audífonos incluidos</span>
+            </div>
+
+            <div class="hidden sm:block w-px h-4 bg-white/20"></div>
+
+            <!-- Idioma -->
+            <div class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-300 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" stroke-width="2" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+                />
+              </svg>
+              <span class="font-medium">Español</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full max-w-7xl mx-auto px-4 py-8"
+      >
+        <div class="lg:col-span-2 space-y-12 px-8 md:px-14 lg:px-20">
+          <section class="w-full max-w-[820px] mx-auto px-4 md:px-0">
+            <div
+              data-tour-stats="031223db-2de0-4b7a-bb77-3d519e2d110e"
+              class="flex items-center gap-2 mb-2"
+            ></div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 font-alt">
+              Tour Esencial por Brujas: La experiencia definitiva
+            </h2>
+
+            <!-- Ventajas clave / Badges de valor -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+              <div
+                class="flex items-center gap-2 bg-emerald-50 text-emerald-800 p-3 rounded-xl text-sm font-medium border border-emerald-100"
+              >
+                <svg
+                  class="w-5 h-5 text-emerald-600 shrink-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>Reserva y cancelación 100% gratis</span>
+              </div>
+
+              <div
+                class="flex items-center gap-2 bg-blue-50 text-blue-800 p-3 rounded-xl text-sm font-medium border border-blue-100"
+              >
+                <svg
+                  class="w-5 h-5 text-blue-600 shrink-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>Se paga al final del recorrido</span>
+              </div>
+
+              <div
+                class="flex items-center gap-2 bg-purple-50 text-purple-800 p-3 rounded-xl text-sm font-medium border border-purple-100"
+              >
+                <svg
+                  class="w-5 h-5 text-purple-600 shrink-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"
+                  />
+                </svg>
+                <span>Audífonos para escuchar claro al guía</span>
+              </div>
+            </div>
+
+            <!-- Texto Persuasivo -->
+            <div class="space-y-4 text-[1.1rem] leading-relaxed text-gray-800">
+              <p>
+                <strong>Descubre la verdadera alma de Brujas</strong> en un
+                recorrido imprescindible a pie desde la mítica
+                <strong>Plaza del Mercado (Grote Markt)</strong>. Acompañado por
+                una <strong>guía local apasionada</strong>, explorarás los
+                monumentos más icónicos y la deslumbrante arquitectura de esta
+                joya medieval, mientras te adentras en
+                <strong
+                  >canales secretos, puentes de cuento y rincones
+                  escondidos</strong
+                >
+                que la mayoría de viajeros nunca llega a ver.
+              </p>
+
+              <p>
+                Durante el tour desvelaremos
+                <strong>mitos fascinantes, leyendas y secretos locales</strong>,
+                haciendo una parada para disfrutar del famoso
+                <strong>chocolate artesanal brujense</strong>. Además, para que
+                no te pierdas ni un solo detalle ni anécdota sin importar la
+                distancia,
+                <strong
+                  >te proporcionaremos un receptor de audio individual</strong
+                >
+                con un sonido alto y nítido.
+              </p>
+
+              <p>
+                Viaja sin estrés:
+                <strong
+                  >la reserva es 100% gratuita y puedes cancelar cuando
+                  quieras</strong
+                >
+                sin penalizaciones. Disfruta primero del recorrido con total
+                tranquilidad y
+                <strong>paga al final el importe que consideres justo</strong>
+                según lo mucho que te haya gustado la experiencia.
+              </p>
+            </div>
+
+            <div class="divider my-10"></div>
+          </section>
+
+          <!-- 2. PUNTO DE ENCUENTRO -->
+          <section class="w-full max-w-[820px] mx-auto">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 font-alt">
+              Punto de Encuentro
+            </h2>
+
+            <p class="text-[1.1rem] leading-relaxed text-gray-800">
+              Encontrarás a tu guía en la
+              <a
+                href="https://www.google.com/maps/place/Grote+Markt,+8000+Brugge,+Bélgica"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-bold text-black underline decoration-2 decoration-gray-300 hover:text-purple-700 hover:decoration-purple-500 transition-colors"
+              >
+                Grote Markt
+              </a>
+              con un <strong>paraguas morado</strong> y la
+              <strong>bandera de España!</strong>
+            </p>
+
+            <div
+              class="w-full h-[350px] md:h-[400px] rounded-2xl overflow-hidden shadow-md border border-gray-200/80"
+            >
+              <iframe
+                class="w-full h-full border-0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.279326739959!2d3.222219176734487!3d51.208685171740934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c35118e1fb130d%3A0xe4f4afc3dee0cc4!2sMarket%20Square!5e0!3m2!1ses!2sbe!5m2!1ses!2sbe"
+              >
+              </iframe>
+            </div>
+
+            <div class="divider my-10"></div>
+          </section>
+
+          <!-- 3. RECORRIDO -->
+          <section class="w-full">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 font-alt">
+              Recorrido
+            </h2>
+
+            <div class="w-full my-6">
+              <!-- Punto 1 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    1
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Campanario (Belfort)</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      El símbolo más reconocible de Brujas, una torre medieval
+                      de 83 metros que domina la Plaza Mayor. Desde sus alturas
+                      se obtienen vistas espectaculares de la ciudad, y su
+                      historia ligada a los gremios refleja el poder y la
+                      riqueza de la Brujas medieval.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 2 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    2
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Plaza Burg</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      El corazón histórico de Brujas, rodeado de edificios
+                      emblemáticos como el Ayuntamiento y la Basílica de la
+                      Santa Sangre. Un espacio lleno de encanto donde se mezclan
+                      arquitectura medieval y renacentista, reflejando siglos de
+                      tradición y poder cívico.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 3 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    3
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Mercado del Pescado (Vismarkt)</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un espacio histórico junto al canal donde durante siglos
+                      se comercializó pescado fresco. Hoy sus soportales de
+                      piedra acogen mercadillos y artesanías, manteniendo el
+                      ambiente tradicional y ofreciendo un rincón pintoresco
+                      para pasear y descubrir la vida cotidiana de la Brujas
+                      medieval.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 4 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    4
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Plaza de los Curtidores</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un rincón tradicional de Brujas ligado a los antiguos
+                      oficios, donde se respiraba la actividad artesanal de los
+                      curtidores. Hoy conserva su aire pintoresco y tranquilo,
+                      ofreciendo una ventana al pasado laboral de la ciudad
+                      medieval.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 5 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    5
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Muelle del Rosario (Rozenhoedkaai)</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      El rincón más pintoresco y fotografiado de Brujas, donde
+                      los canales se cruzan con casas medievales y la silueta
+                      del Belfort. Un lugar mágico que ofrece una postal
+                      perfecta de la ciudad, especialmente al atardecer.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 6 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    6
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Dijver</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un pintoresco paseo junto al canal, flanqueado por museos
+                      y antiguas casas gremiales. Es uno de los lugares más
+                      tranquilos y evocadores de Brujas, ideal para disfrutar de
+                      la atmósfera medieval reflejada en las aguas.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 7 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    7
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Puente de San Bonifacio</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un rincón romántico y encantador de Brujas, rodeado de
+                      antiguos edificios y jardines serenos. Desde este pequeño
+                      puente se disfrutan vistas mágicas del casco histórico,
+                      convirtiéndolo en uno de los lugares más evocadores de la
+                      ciudad.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 8 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    8
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Iglesia de Nuestra Señora de Brujas</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un majestuoso templo gótico que alberga la famosa
+                      escultura de la Virgen con el Niño de Miguel Ángel. Su
+                      imponente torre de ladrillo, una de las más altas de
+                      Bélgica, domina el horizonte y refleja la grandeza
+                      espiritual y artística de la ciudad.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 9 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    9
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Antiguo Hospital de San Juan</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Uno de los complejos hospitalarios más antiguos de Europa,
+                      fundado en el siglo XII. Sus salas históricas y patios
+                      evocan siglos de cuidado y caridad, y hoy alberga el Museo
+                      Memling, con obras maestras del arte flamenco que
+                      enriquecen la experiencia cultural en Brujas.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 10 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    10
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Palacio Gruuthuse</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Una elegante residencia señorial del siglo XV que
+                      perteneció a la influyente familia Gruuthuse. Hoy
+                      convertido en museo, conserva colecciones de arte, tapices
+                      y objetos históricos que muestran la vida cotidiana de la
+                      nobleza brujense, en un entorno de gran riqueza
+                      arquitectónica.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 11 -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    11
+                  </span>
+                  <div class="w-0.5 bg-gray-300 flex-1 my-1"></div>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Cervecería Halve Maan</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      La histórica fábrica de cerveza familiar de Brujas, activa
+                      desde el siglo XVI. Aquí se elabora la famosa Brugse Zot,
+                      y además se puede recorrer sus instalaciones para
+                      descubrir la tradición cervecera local, culminando con una
+                      degustación en su acogedor bar con vistas a la ciudad.
+                    </p>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Punto 12 (Sin línea al final) -->
+              <div class="flex gap-3 sm:gap-4 w-full">
+                <div class="flex flex-col items-center shrink-0">
+                  <span
+                    class="flex items-center justify-center w-8 h-8 rounded-full bg-black text-white font-bold text-sm shadow-sm mt-2 z-1"
+                  >
+                    12
+                  </span>
+                </div>
+                <details
+                  class="group bg-white border border-gray-200 shadow-sm rounded-xl w-full flex-1 mb-4"
+                >
+                  <summary
+                    class="flex items-center justify-between gap-3 list-none cursor-pointer px-4 py-3 text-base font-semibold text-gray-900 [&::-webkit-details-marker]:hidden"
+                  >
+                    <span>Beguinario</span>
+                    <svg
+                      class="w-5 h-5 shrink-0 text-gray-500 transition-transform duration-300 group-open:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div
+                    class="px-4 pb-4 text-gray-700 text-[1rem] leading-relaxed"
+                  >
+                    <p>
+                      Un apacible conjunto de casitas blancas del siglo XIII
+                      rodeadas de jardines y álamos. Fundado como refugio para
+                      las beguinas, hoy transmite serenidad y espiritualidad,
+                      ofreciendo un paseo único por la historia y la vida
+                      cotidiana de la Brujas medieval.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <div class="divider my-12"></div>
+          </section>
+
+          <!--4 DETALLES DEL TOUR -->
+          <section class="w-full">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 font-alt">
+              Detalles del tour
+            </h2>
+
+            <ul class="space-y-4 p-0">
+              <!-- 1. Duración -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Dura 2 horas aproximadamente.
+                </p>
+              </li>
+
+              <!-- 2. Mínimo de personas -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <line x1="19" x2="19" y1="8" y2="14" />
+                    <line x1="16" x2="22" y1="11" y2="11" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Se necesita un mínimo de 6 personas para que se realice el
+                  tour.
+                </p>
+              </li>
+
+              <!-- 3. Máximo de conocidos -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Se admiten grupos de hasta 4 personas que se conozcan entre
+                  sí.
+                </p>
+              </li>
+
+              <!-- 4. Carritos de bebé -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="9" cy="20" r="1" />
+                    <circle cx="18" cy="20" r="1" />
+                    <path d="M3 3h3l2.5 11h10.5l2.5-7H7.5" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Apto para carritos de bebé.
+                </p>
+              </li>
+
+              <!-- 5. Movilidad reducida -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5 text-gray-900 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="4" r="1" />
+                    <circle cx="8" cy="16" r="5" />
+                    <circle cx="19" cy="19" r="2" />
+                    <path d="M6 8h5l3 8h5" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Apto para personas con movilidad reducida.
+                </p>
+              </li>
+
+              <!-- 6. Mascotas -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5 text-gray-900 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 13a4 4 0 0 0-4 4v1a4 4 0 0 0 8 0v-1a4 4 0 0 0-4-4Z"
+                    />
+                    <circle cx="6.5" cy="8.5" r="2.5" />
+                    <circle cx="17.5" cy="8.5" r="2.5" />
+                    <circle cx="12" cy="4.5" r="2.5" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Se admiten mascotas.
+                </p>
+              </li>
+
+              <!-- 7. Cancelación gratuita -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.8 17 5 19 5a1 1 0 0 1 1 1z"
+                    />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  La reserva y la cancelación son gratuitas.
+                </p>
+              </li>
+
+              <!-- 8. Mal tiempo -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"
+                    />
+                    <path d="M16 14v6" />
+                    <path d="M8 14v6" />
+                    <path d="M12 16v6" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  No se cancela en caso de mal tiempo.
+                </p>
+              </li>
+
+              <!-- 9. Métodos de pago -->
+              <li class="flex items-center gap-3 sm:gap-4">
+                <span class="shrink-0 text-gray-900">
+                  <svg
+                    class="w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="20" height="14" x="2" y="5" rx="2" />
+                    <line x1="2" x2="22" y1="10" y2="10" />
+                  </svg>
+                </span>
+                <p class="text-gray-800 text-base leading-snug">
+                  Se aceptan pagos online mediante:
+                  <strong class="font-semibold text-gray-900"
+                    >Revolut, PayPal, Mastercard, Visa y Apple Pay</strong
+                  >.
+                </p>
+              </li>
+            </ul>
+
+            <hr class="my-12 border-gray-200" />
+          </section>
+
+          <!-- 5. QUÉ ESTÁ INCLUIDO -->
+          <section class="w-full">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 font-alt">
+              ¿Qué está incluido?
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+              <!-- Incluido -->
+              <div>
+                <h3
+                  class="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2.5"
+                >
+                  <span
+                    class="flex items-center justify-center w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 shrink-0"
+                  >
+                    <svg
+                      class="w-3.5 h-3.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </span>
+                  Incluido
+                </h3>
+
+                <ul class="space-y-3 pl-0">
+                  <li class="flex items-center gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-emerald-500 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span>Guía turístico local </span>
+                  </li>
+                  <li class="flex items-center gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-emerald-500 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span>Audífonos para escuchar claro al guía</span>
+                  </li>
+                  <li class="flex items-center gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-emerald-500 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span>Degustación de chocolate</span>
+                  </li>
+                  <li class="flex items-start gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-emerald-500 shrink-0 mt-1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span
+                      >PDF con la guía completa de Brujas (dónde comer, beber,
+                      museos y tips útiles)</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- No incluido -->
+              <div>
+                <h3
+                  class="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2.5"
+                >
+                  <span
+                    class="flex items-center justify-center w-6 h-6 rounded-full bg-rose-50 text-rose-500 shrink-0"
+                  >
+                    <svg
+                      class="w-3.5 h-3.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18" />
+                      <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                  </span>
+                  No incluido
+                </h3>
+
+                <ul class="space-y-3 pl-0">
+                  <li class="flex items-center gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-rose-400 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18" />
+                      <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                    <span>Entradas a monumentos o museos</span>
+                  </li>
+                  <li class="flex items-center gap-3 text-gray-700 text-base">
+                    <svg
+                      class="w-4 h-4 text-rose-400 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18" />
+                      <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                    <span>Transporte</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- 6. PREGUNTAS FRECUENTES -->
+          <section class="w-full" id="faq" data-theme="light">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 font-alt">
+              Preguntas frecuentes
+            </h2>
+
+            <div class="space-y-3" data-theme="light">
+              <!-- Pregunta 1 -->
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300 rounded-xl"
+              >
+                <input type="checkbox" />
+                <div
+                  class="collapse-title font-semibold text-base text-gray-900"
+                >
+                  ¿Dónde comienza el tour?
+                </div>
+                <div
+                  class="collapse-content text-sm text-gray-600 leading-relaxed space-y-2"
+                >
+                  <p>
+                    El punto de encuentro exacto para el tour se indica en el
+                    correo de confirmación de tu reserva (habitualmente en un
+                    punto céntrico e icónico de la ciudad como la plaza
+                    <strong>Markt</strong> o la plaza del
+                    <strong>Burg</strong>).
+                  </p>
+                  <p>
+                    Te recomendamos llegar entre 10 y 15 minutos antes de la
+                    hora acordada para comenzar el recorrido con puntualidad.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Pregunta 2 -->
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300 rounded-xl"
+              >
+                <input type="checkbox" />
+                <div
+                  class="collapse-title font-semibold text-base text-gray-900"
+                >
+                  ¿Puedo cambiar el horario o día de mi reserva si tengo algún
+                  imprevisto?
+                </div>
+                <div
+                  class="collapse-content text-sm text-gray-600 leading-relaxed space-y-2"
+                >
+                  <p>
+                    ¡Sin problema! Sabemos que en un viaje pueden surgir
+                    contratiempos o cambios de planes. Puedes modificar la fecha
+                    u hora de tu reserva en cualquier momento de forma
+                    totalmente gratuita.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Pregunta 3 -->
+              <div
+                class="collapse collapse-arrow bg-base-100 border border-base-300 rounded-xl"
+              >
+                <input type="checkbox" />
+                <div
+                  class="collapse-title font-semibold text-base text-gray-900"
+                >
+                  ¿Es necesario reservar plaza con antelación?
+                </div>
+                <div
+                  class="collapse-content text-sm text-gray-600 leading-relaxed space-y-2"
+                >
+                  <p>
+                    Sí, es totalmente recomendable. Mantenemos un cupo máximo de
+                    personas por grupo para garantizar que el recorrido sea
+                    cómodo, ameno y con una atención cercana por parte del guía.
+                  </p>
+                  <p>
+                    Reservar con antelación asegura tu lugar de forma
+                    instantánea y 100% gratuita.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 7. VALORACIONES -->
+          <section
+            data-tour-reviews="031223db-2de0-4b7a-bb77-3d519e2d110e"
+            class="w-full max-w-4xl mx-auto py-8 px-4"
+          ></section>
+        </div>
+        <aside class="lg:col-span-1" data-theme="light">
+          <div class="lg:sticky lg:top-6">
+            <section class="booking-widget" aria-label="Reserva del tour">
+              <div data-booking-widget data-tour-slug="esencial-brujas"></div>
+            </section>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer
+      class="bg-[#8a3cb8] text-white pt-12 px-8 rounded-b-2xl rounded-t-2xl"
+    >
+      <div
+        class="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 pb-12"
+      >
+        <!-- Marca -->
+        <div class="md:col-span-1 text-center md:text-left">
+          <img
+            src="/src/assets/logo-header.png"
+            alt="Tu Guía en Brujas"
+            class="w-[100px] mx-auto md:mx-0 mt-0 mb-4"
+          />
+          <p class="text-white! text-[0.95rem] leading-relaxed mb-6">
+            Explora ciudades con guías apasionados, rutas auténticas y
+            experiencias inolvidables.
+          </p>
+
+          <!-- Redes Sociales: los 4 con Simple Icons, mismo patrón, mismo hover -->
+          <div class="flex justify-center md:justify-start gap-3">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/share/1DBsg2Bn2j/"
+              target="_blank"
+              rel="noreferrer"
+              class="group relative w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden transition-all duration-300 hover:bg-black"
+            >
+              <img
+                src="https://cdn.simpleicons.org/facebook/000000"
+                alt="Facebook"
+                class="w-5 h-5 absolute transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="https://cdn.simpleicons.org/facebook/ffffff"
+                alt=""
+                aria-hidden="true"
+                class="w-5 h-5 absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </a>
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/toursenbrujas?igsh=ZGZyYnZkYTkzYnky"
+              target="_blank"
+              rel="noreferrer"
+              class="group relative w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden transition-all duration-300 hover:bg-black"
+            >
+              <img
+                src="https://cdn.simpleicons.org/instagram/000000"
+                alt="Instagram"
+                class="w-5 h-5 absolute transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="https://cdn.simpleicons.org/instagram/ffffff"
+                alt=""
+                aria-hidden="true"
+                class="w-5 h-5 absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </a>
+            <!-- TikTok -->
+            <a
+              href="https://www.tiktok.com/@tuguiaenbrujas?_t=ZG-90scmCfZAOm&_r=1"
+              target="_blank"
+              rel="noreferrer"
+              class="group relative w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden transition-all duration-300 hover:bg-black"
+            >
+              <img
+                src="https://cdn.simpleicons.org/tiktok/000000"
+                alt="TikTok"
+                class="w-5 h-5 absolute transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="https://cdn.simpleicons.org/tiktok/ffffff"
+                alt=""
+                aria-hidden="true"
+                class="w-5 h-5 absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </a>
+            <!-- TripAdvisor (ahora el logo real, no una aproximación a mano) -->
+            <a
+              href="https://www.tripadvisor.be/Attraction_Review-g188671-d33088453-Reviews-Tu_Guia_en_Brujas-Bruges_West_Flanders_Province.html"
+              target="_blank"
+              rel="noreferrer"
+              class="group relative w-10 h-10 rounded-full bg-white flex items-center justify-center overflow-hidden transition-all duration-300 hover:bg-black"
+            >
+              <img
+                src="https://cdn.simpleicons.org/tripadvisor/000000"
+                alt="TripAdvisor"
+                class="w-5 h-5 absolute transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="https://cdn.simpleicons.org/tripadvisor/ffffff"
+                alt=""
+                aria-hidden="true"
+                class="w-5 h-5 absolute opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- Ciudades -->
+        <div>
+          <h4 class="text-white! text-[1.1rem] font-semibold mb-4">Ciudades</h4>
+          <ul class="list-none pl-0 m-0 space-y-3">
+            <li>
+              <a
+                href="/privado-brujas/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Brujas</a
+              >
+            </li>
+            <li>
+              <a
+                href="/privado-gante/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Gante</a
+              >
+            </li>
+            <li>
+              <a
+                href="/privado-bruselas/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Bruselas</a
+              >
+            </li>
+            <li>
+              <a
+                href="/privado-amberes/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Amberes</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Legal -->
+        <div>
+          <h4 class="text-white! text-[1.1rem] font-semibold mb-4">Legal</h4>
+          <ul class="list-none pl-0 m-0 space-y-3">
+            <li>
+              <a
+                href="/aviso-legal/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Aviso Legal</a
+              >
+            </li>
+            <li>
+              <a
+                href="/politica-de-privacidad/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Política de Privacidad</a
+              >
+            </li>
+            <li>
+              <a
+                href="/politica-de-cookies/"
+                class="text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+                >Política de Cookies</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div>
+          <h4 class="text-white! text-[1.1rem] font-semibold mb-4">Contacto</h4>
+          <ul class="list-none pl-0 m-0 space-y-4">
+            <li>
+              <a
+                href="mailto:tuguiaenbrujas@gmail.com"
+                class="flex items-center gap-2.5 text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+              >
+                <svg
+                  class="w-5 h-5 shrink-0"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                tuguiaenbrujas@gmail.com
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/32472951522"
+                target="_blank"
+                rel="noreferrer"
+                class="flex items-center gap-2.5 text-white! text-[0.95rem] hover:opacity-80 transition-opacity duration-200"
+              >
+                <svg
+                  class="w-5 h-5 shrink-0"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+                WhatsApp
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Parte inferior con el Año Dinámico -->
+      <div class="border-t border-white/25 py-6 text-center">
+        <p class="text-white! text-[0.9rem] m-0">
+          &copy; <span id="current-year">2026</span> Tu Guía en Brujas. Todos
+          los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- BANNER DE COOKIES -->
+    <div
+      id="cookieBanner"
+      class="sheet-anim fixed bottom-4 left-4 right-4 sm:right-auto sm:left-6 w-auto sm:max-w-md bg-white/95 backdrop-blur-md border border-gray-100 p-5 rounded-2xl shadow-2xl z-50 flex flex-col gap-3"
+    >
+      <div class="flex items-start gap-3.5">
+        <!-- Icono de Galleta en badge circular -->
+        <span
+          class="shrink-0 w-11 h-11 rounded-full bg-gradient-to-br from-amber-50 to-[#f3e8fb] flex items-center justify-center text-2xl select-none leading-none"
+        >
+          🍪
+        </span>
+
+        <div class="flex-1">
+          <!-- Encabezado -->
+          <h4 class="font-bold text-gray-900 text-sm mb-1 tracking-tight">
+            Tu privacidad nos importa
+          </h4>
+
+          <!-- Texto descriptivo con enlace -->
+          <p class="text-xs text-gray-600 leading-relaxed mb-4">
+            Usamos cookies para mejorar tu experiencia. Puedes leer más en
+            nuestra
+            <a
+              href="/politica-de-cookies/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[#8a3cb8]! font-semibold underline hover:text-[#752fa0]! transition-colors"
+            >
+              Política de Cookies </a
+            >.
+          </p>
+
+          <!-- Botones de Acción -->
+          <div class="flex items-center gap-2">
+            <button
+              id="acceptCookies"
+              class="flex-1 bg-[#8a3cb8] hover:bg-[#752fa0] text-white! font-semibold text-xs py-2.5 px-4 rounded-xl shadow-sm hover:shadow-md transition-all active:scale-95 cursor-pointer text-center"
+            >
+              Aceptar
+            </button>
+
+            <button
+              id="rejectCookies"
+              class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700! font-semibold text-xs py-2.5 px-4 rounded-xl transition-all active:scale-95 cursor-pointer text-center"
+            >
+              Rechazar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
